@@ -1,0 +1,20 @@
+{
+  "model": "distilbert-base-uncased",
+  "training_samples": 448779,
+  "validation_samples": 96167,
+  "epochs_configured": 1,
+  "max_length": 96,
+  "batch_size": 2,
+  "gradient_accumulation_steps": 8,
+  "session_training_time_seconds": 31414.66,
+  "best_validation_f1": 0.9836230313878813,
+  "validation_metrics": {
+    "eval_loss": 0.05931858718395233,
+    "eval_accuracy": 0.9891542836939906,
+    "eval_precision": 0.9871103967728719,
+    "eval_recall": 0.9801602203029165,
+    "eval_f1": 0.9836230313878813,
+    "eval_roc_auc": 0.9991606179272534
+  },
+  "model_directory": "C:\\Users\\MSii\\Desktop\\NIBM\\3rd Year Matrerial\\Project\\PhishingDetection\\models\\distilbert\\full_dataset_experiment\\final_model"
+}

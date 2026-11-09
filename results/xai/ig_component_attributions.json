@@ -1,0 +1,226 @@
+[
+  {
+    "sample_id": 0,
+    "true_label": 0,
+    "url": "platteriverdecoyco.com/demo.html",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 0.4984471770003438,
+      "path": 5.202105022966862
+    },
+    "convergence_delta": 0.0026993751525878906
+  },
+  {
+    "sample_id": 1,
+    "true_label": 1,
+    "url": "http://www.atelierduvieuxpin.com/fr/seminaires/finition-ancienne-niveau-1.html",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 1.0512305572628975,
+      "path": -0.05357042886316776
+    },
+    "convergence_delta": -0.0104217529296875
+  },
+  {
+    "sample_id": 2,
+    "true_label": 1,
+    "url": "www.vlaurie.com/computers2/winXP.htm",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 3.249117888510227,
+      "path": -1.578704595565796
+    },
+    "convergence_delta": 0.061628103256225586
+  },
+  {
+    "sample_id": 3,
+    "true_label": 0,
+    "url": "palzoo.net/TomHanks",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 0.7056578919291496,
+      "path": 5.047400549054146
+    },
+    "convergence_delta": -0.03786945343017578
+  },
+  {
+    "sample_id": 4,
+    "true_label": 0,
+    "url": "hausgreen.info/wp-content/themes/twentyten/e3bay.co.uk2e.htm",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 0.09577179700136185,
+      "path": 5.439759032800794
+    },
+    "convergence_delta": 0.0019397735595703125
+  },
+  {
+    "sample_id": 5,
+    "true_label": 0,
+    "url": "'punto.gt/Aol/login.php?sitedomain=startpage.aol.com&amp;siteState=OrigUrl=http\\%3A\\%2F\\%2Fwww.aol.com\\%2F&amp;authLev=0&amp;lang=en&amp;locale=us'",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 0.08510809578001499,
+      "path": 3.589002914726734,
+      "query": 1.5480786957778037
+    },
+    "convergence_delta": -0.04220771789550781
+  },
+  {
+    "sample_id": 6,
+    "true_label": 1,
+    "url": "https://tableau-et-compagnie.fr:443/wells-code",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 1.462729811668396,
+      "path": -0.40277913585305214
+    },
+    "convergence_delta": 0.014350652694702148
+  },
+  {
+    "sample_id": 7,
+    "true_label": 0,
+    "url": "lib.o56.ru/lat/ASPRIN/Thieves_World-2.txt",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": -0.09023813903331757,
+      "path": 5.486306678503752
+    },
+    "convergence_delta": 0.013916015625
+  },
+  {
+    "sample_id": 8,
+    "true_label": 1,
+    "url": "http://storiesdining.com/reservations/make-a-reservation",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": -0.9657115340232849,
+      "path": -7.372259691357613
+    },
+    "convergence_delta": 0.12447413802146912
+  },
+  {
+    "sample_id": 9,
+    "true_label": 1,
+    "url": "www.erbix.com/eris-form-creator/",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 3.235086850821972,
+      "path": -1.6023485623300076
+    },
+    "convergence_delta": 0.046949148178100586
+  },
+  {
+    "sample_id": 10,
+    "true_label": 1,
+    "url": "www.styopkin.com/rosary_screen_saver.html",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 7.084782630205154,
+      "path": -6.469054728746414
+    },
+    "convergence_delta": 0.07968032360076904
+  },
+  {
+    "sample_id": 11,
+    "true_label": 0,
+    "url": "corporate.univision.com/2007/05/disney-abc-international-television-latin-america-and-univision-sign-unprecedented-strategic-production-agreement/",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 0.7215824481099844,
+      "path": 4.811617287807167
+    },
+    "convergence_delta": -0.012447357177734375
+  },
+  {
+    "sample_id": 12,
+    "true_label": 0,
+    "url": "careerbuilder.com/Jobs/Company/C8A1KV665NW9TVNKR7Z/Shook-Hardy-Bacon-LLP-Jobs/",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 1.1005198545753956,
+      "path": 4.49347175238654
+    },
+    "convergence_delta": -0.03130960464477539
+  },
+  {
+    "sample_id": 13,
+    "true_label": 1,
+    "url": "http://89.32.41.63/mips",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 1.0317446552217007,
+      "path": -0.112431600689888
+    },
+    "convergence_delta": 0.001654982566833496
+  },
+  {
+    "sample_id": 14,
+    "true_label": 0,
+    "url": "vlaff.org/",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": -0.5064241476356983,
+      "path": 6.360238075256348
+    },
+    "convergence_delta": -0.04888153076171875
+  },
+  {
+    "sample_id": 15,
+    "true_label": 1,
+    "url": "http://www.multisolexpress.com.br/index.php?option=com_content&view=article&id=33:seguro-habitacional&catid=16:seguro-habitacional&Itemid=3",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.8532995842397213,
+      "path": 0.0002834685146808624,
+      "query": 0.8152993209660053
+    },
+    "convergence_delta": -0.0022666454315185547
+  },
+  {
+    "sample_id": 16,
+    "true_label": 0,
+    "url": "makethemworkforyou.com/Municipal/Edmonton/CityCouncil.aspx",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 0.9525830708444118,
+      "path": 4.737724095582962
+    },
+    "convergence_delta": -0.02160930633544922
+  },
+  {
+    "sample_id": 17,
+    "true_label": 1,
+    "url": "https://mitsui-jyuku.mixh.jp/uploads/1671q2w3ez1x2c3.exe",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.7600785298272967,
+      "path": -0.40225275233387947
+    },
+    "convergence_delta": -0.004079103469848633
+  },
+  {
+    "sample_id": 18,
+    "true_label": 1,
+    "url": "http://www.electrosistemas.com.ar/index.php?option=com_virtuemart&page=shop.browse&category_id=12&Itemid=2&TreeId=15",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 1.0803741998970509,
+      "path": 0.09373669698834419,
+      "query": 0.6668020326178521
+    },
+    "convergence_delta": -0.006563663482666016
+  },
+  {
+    "sample_id": 19,
+    "true_label": 0,
+    "url": "legacy.com/obituaries/ctpost/obituary.aspx?n=charles-r-feld&pid=105444849&fhid=4894",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 1.268141858279705,
+      "path": 3.6795779718086123,
+      "query": 0.5655288165435195
+    },
+    "convergence_delta": 0.048999786376953125
+  }
+]

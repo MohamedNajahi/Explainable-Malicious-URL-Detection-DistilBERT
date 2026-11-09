@@ -1,0 +1,226 @@
+[
+  {
+    "sample_id": 0,
+    "true_label": 0,
+    "url": "platteriverdecoyco.com/demo.html",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 0.6667711385332785,
+      "path": 0.7315962398489014
+    },
+    "local_r2": 0.8356897258339552
+  },
+  {
+    "sample_id": 1,
+    "true_label": 1,
+    "url": "http://www.atelierduvieuxpin.com/fr/seminaires/finition-ancienne-niveau-1.html",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.0005144068834269617,
+      "path": 0.0002271933281928749
+    },
+    "local_r2": 0.8447436052220417
+  },
+  {
+    "sample_id": 2,
+    "true_label": 1,
+    "url": "www.vlaurie.com/computers2/winXP.htm",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.6565601848112428,
+      "path": -0.2790348234233052
+    },
+    "local_r2": 0.7187978739549643
+  },
+  {
+    "sample_id": 3,
+    "true_label": 0,
+    "url": "palzoo.net/TomHanks",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 0.41605882436970526,
+      "path": 0.8368939146928747
+    },
+    "local_r2": 0.9262981934770372
+  },
+  {
+    "sample_id": 4,
+    "true_label": 0,
+    "url": "hausgreen.info/wp-content/themes/twentyten/e3bay.co.uk2e.htm",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": -0.00047894050099145277,
+      "path": 0.9976209990205376
+    },
+    "local_r2": 0.9999987964714531
+  },
+  {
+    "sample_id": 5,
+    "true_label": 0,
+    "url": "'punto.gt/Aol/login.php?sitedomain=startpage.aol.com&amp;siteState=OrigUrl=http\\%3A\\%2F\\%2Fwww.aol.com\\%2F&amp;authLev=0&amp;lang=en&amp;locale=us'",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": -0.04388842149094568,
+      "path": 0.456784619402704,
+      "query": 0.3412920960248273
+    },
+    "local_r2": 0.6886091504679754
+  },
+  {
+    "sample_id": 6,
+    "true_label": 1,
+    "url": "https://tableau-et-compagnie.fr:443/wells-code",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.000510640237983922,
+      "path": 6.090187781043693e-05
+    },
+    "local_r2": 0.970976688055002
+  },
+  {
+    "sample_id": 7,
+    "true_label": 0,
+    "url": "lib.o56.ru/lat/ASPRIN/Thieves_World-2.txt",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 0.0006413341199493161,
+      "path": 0.9971154975015326
+    },
+    "local_r2": 0.9999981068700462
+  },
+  {
+    "sample_id": 8,
+    "true_label": 1,
+    "url": "http://storiesdining.com/reservations/make-a-reservation",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.018282817397006195,
+      "path": -0.018466947829547185
+    },
+    "local_r2": 0.8237192002651481
+  },
+  {
+    "sample_id": 9,
+    "true_label": 1,
+    "url": "www.erbix.com/eris-form-creator/",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.6294944693966067,
+      "path": -0.30671213536451564
+    },
+    "local_r2": 0.6755138816632913
+  },
+  {
+    "sample_id": 10,
+    "true_label": 1,
+    "url": "www.styopkin.com/rosary_screen_saver.html",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.6591445559651088,
+      "path": -0.33401578303056884
+    },
+    "local_r2": 0.7036021809227506
+  },
+  {
+    "sample_id": 11,
+    "true_label": 0,
+    "url": "corporate.univision.com/2007/05/disney-abc-international-television-latin-america-and-univision-sign-unprecedented-strategic-production-agreement/",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": -0.003463154074926127,
+      "path": 0.9941629154064996
+    },
+    "local_r2": 0.9999594238191345
+  },
+  {
+    "sample_id": 12,
+    "true_label": 0,
+    "url": "careerbuilder.com/Jobs/Company/C8A1KV665NW9TVNKR7Z/Shook-Hardy-Bacon-LLP-Jobs/",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": -0.00038818731226980405,
+      "path": 0.9972851268357815
+    },
+    "local_r2": 0.9999982927208784
+  },
+  {
+    "sample_id": 13,
+    "true_label": 1,
+    "url": "http://89.32.41.63/mips",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.00016110985293914555,
+      "path": 5.29646956366755e-05
+    },
+    "local_r2": 0.7787049441701164
+  },
+  {
+    "sample_id": 14,
+    "true_label": 0,
+    "url": "vlaff.org/",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 0.0012955497666046227,
+      "path": 0.9974240018121802
+    },
+    "local_r2": 0.9999963225590651
+  },
+  {
+    "sample_id": 15,
+    "true_label": 1,
+    "url": "http://www.multisolexpress.com.br/index.php?option=com_content&view=article&id=33:seguro-habitacional&catid=16:seguro-habitacional&Itemid=3",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.0003747474741522503,
+      "path": 0.00011296857465253716,
+      "query": 0.0005008771359542811
+    },
+    "local_r2": 0.784335826691098
+  },
+  {
+    "sample_id": 16,
+    "true_label": 0,
+    "url": "makethemworkforyou.com/Municipal/Edmonton/CityCouncil.aspx",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 0.021306359524265066,
+      "path": 0.9910522903051552
+    },
+    "local_r2": 0.9997992807879222
+  },
+  {
+    "sample_id": 17,
+    "true_label": 1,
+    "url": "https://mitsui-jyuku.mixh.jp/uploads/1671q2w3ez1x2c3.exe",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.00037553943342390016,
+      "path": 0.0002890492772555415
+    },
+    "local_r2": 0.722526832512955
+  },
+  {
+    "sample_id": 18,
+    "true_label": 1,
+    "url": "http://www.electrosistemas.com.ar/index.php?option=com_virtuemart&page=shop.browse&category_id=12&Itemid=2&TreeId=15",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.000541041517072813,
+      "path": 9.055140125320865e-05,
+      "query": 0.0003639610615154777
+    },
+    "local_r2": 0.8097190725399067
+  },
+  {
+    "sample_id": 19,
+    "true_label": 0,
+    "url": "legacy.com/obituaries/ctpost/obituary.aspx?n=charles-r-feld&pid=105444849&fhid=4894",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 0.0016145373795682946,
+      "path": 0.9819139402193027,
+      "query": 0.01179622112488857
+    },
+    "local_r2": 0.9998185657229816
+  }
+]

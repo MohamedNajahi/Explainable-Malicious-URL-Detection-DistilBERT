@@ -1,0 +1,2654 @@
+[
+  {
+    "sample_id": 0,
+    "url": "platteriverdecoyco.com/demo.html",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 0.6587582999491133,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": -5.587935447692871e-09
+      },
+      {
+        "token": "platt",
+        "attribution": -0.0024186273803934455
+      },
+      {
+        "token": "eri",
+        "attribution": -0.019674700568430126
+      },
+      {
+        "token": "ver",
+        "attribution": -0.02959741244558245
+      },
+      {
+        "token": "de",
+        "attribution": -0.0035199919948354363
+      },
+      {
+        "token": "co",
+        "attribution": 0.009657610634652277
+      },
+      {
+        "token": "y",
+        "attribution": 0.007064293565539022
+      },
+      {
+        "token": "co",
+        "attribution": -3.791639270881812e-05
+      },
+      {
+        "token": ".",
+        "attribution": -0.009040581993758678
+      },
+      {
+        "token": "com",
+        "attribution": 0.013345838808163535
+      },
+      {
+        "token": "/",
+        "attribution": 0.8885514831126784
+      },
+      {
+        "token": "demo",
+        "attribution": -0.015069800661876798
+      },
+      {
+        "token": ".",
+        "attribution": -0.00405064900405705
+      },
+      {
+        "token": "html",
+        "attribution": -0.0079068997874856
+      },
+      {
+        "token": "",
+        "attribution": -8.424744009971619e-06
+      }
+    ]
+  },
+  {
+    "sample_id": 1,
+    "url": "http://www.atelierduvieuxpin.com/fr/seminaires/finition-ancienne-niveau-1.html",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 0.7851468999870121,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": 0.0019026115551241674
+      },
+      {
+        "token": "http",
+        "attribution": 0.1038936191398534
+      },
+      {
+        "token": ":",
+        "attribution": 0.10753670546182548
+      },
+      {
+        "token": "/",
+        "attribution": 0.09092405014598626
+      },
+      {
+        "token": "/",
+        "attribution": -0.033245383731506685
+      },
+      {
+        "token": "www",
+        "attribution": 0.24096287569530736
+      },
+      {
+        "token": ".",
+        "attribution": 0.014387798253058767
+      },
+      {
+        "token": "ate",
+        "attribution": 0.005038400485535108
+      },
+      {
+        "token": "lier",
+        "attribution": 0.005882379903812848
+      },
+      {
+        "token": "du",
+        "attribution": 0.0033017819071011175
+      },
+      {
+        "token": "vie",
+        "attribution": 0.0033017819071011175
+      },
+      {
+        "token": "ux",
+        "attribution": 0.006293856843729459
+      },
+      {
+        "token": "pin",
+        "attribution": 0.0010717672550873388
+      },
+      {
+        "token": ".",
+        "attribution": 0.0021457436128652523
+      },
+      {
+        "token": "com",
+        "attribution": -0.10790629831483654
+      },
+      {
+        "token": "/",
+        "attribution": -0.13365103031849554
+      },
+      {
+        "token": "fr",
+        "attribution": -0.004767062443923871
+      },
+      {
+        "token": "/",
+        "attribution": -0.04933126766575567
+      },
+      {
+        "token": "semi",
+        "attribution": 0.008566519531000051
+      },
+      {
+        "token": "naire",
+        "attribution": 0.012826981308448705
+      },
+      {
+        "token": "s",
+        "attribution": 0.0031338178613666626
+      },
+      {
+        "token": "/",
+        "attribution": -0.08217042195437466
+      },
+      {
+        "token": "fin",
+        "attribution": 0.0037917184544355785
+      },
+      {
+        "token": "ition",
+        "attribution": 0.0037917184544355785
+      },
+      {
+        "token": "-",
+        "attribution": -0.009356307756596445
+      },
+      {
+        "token": "an",
+        "attribution": -0.006693075292874016
+      },
+      {
+        "token": "cie",
+        "attribution": -0.006693075292874016
+      },
+      {
+        "token": "nne",
+        "attribution": -0.006693075292874016
+      },
+      {
+        "token": "-",
+        "attribution": -0.014308635570549606
+      },
+      {
+        "token": "ni",
+        "attribution": -0.0019192853512885492
+      },
+      {
+        "token": "ve",
+        "attribution": -0.0019192853512885492
+      },
+      {
+        "token": "au",
+        "attribution": -0.0016979608487980883
+      },
+      {
+        "token": "-",
+        "attribution": -0.004583717183864099
+      },
+      {
+        "token": "1",
+        "attribution": -0.003703540516740066
+      },
+      {
+        "token": ".",
+        "attribution": -0.00896730114445312
+      },
+      {
+        "token": "html",
+        "attribution": -0.021598217193968594
+      },
+      {
+        "token": "",
+        "attribution": 6.20171194896102e-05
+      }
+    ]
+  },
+  {
+    "sample_id": 2,
+    "url": "www.vlaurie.com/computers2/winXP.htm",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 0.5134554000105709,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": -0.0002370285801589489
+      },
+      {
+        "token": "www",
+        "attribution": 0.44955645652953535
+      },
+      {
+        "token": ".",
+        "attribution": 0.020363585674203932
+      },
+      {
+        "token": "v",
+        "attribution": 0.03255793231073767
+      },
+      {
+        "token": "lau",
+        "attribution": 0.0043662237003445625
+      },
+      {
+        "token": "rie",
+        "attribution": 0.021973041584715247
+      },
+      {
+        "token": ".",
+        "attribution": 3.0211987905204296e-05
+      },
+      {
+        "token": "com",
+        "attribution": -0.04540950975206215
+      },
+      {
+        "token": "/",
+        "attribution": -0.297087917177123
+      },
+      {
+        "token": "computers",
+        "attribution": 0.03110129601554945
+      },
+      {
+        "token": "2",
+        "attribution": 0.024236946599557996
+      },
+      {
+        "token": "/",
+        "attribution": -0.1371620825084392
+      },
+      {
+        "token": "win",
+        "attribution": -0.022668731563802186
+      },
+      {
+        "token": "X",
+        "attribution": 0.011714160219222928
+      },
+      {
+        "token": "P",
+        "attribution": 0.013119053716460863
+      },
+      {
+        "token": ".",
+        "attribution": -0.0009436833206564188
+      },
+      {
+        "token": "h",
+        "attribution": 0.0065796710550785065
+      },
+      {
+        "token": "tm",
+        "attribution": 0.02209059987217188
+      },
+      {
+        "token": "",
+        "attribution": 2.1420419216156006e-08
+      }
+    ]
+  },
+  {
+    "sample_id": 3,
+    "url": "palzoo.net/TomHanks",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 0.1196895000175573,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": -2.2351741790771484e-08
+      },
+      {
+        "token": "pal",
+        "attribution": -0.008335627615451813
+      },
+      {
+        "token": "zoo",
+        "attribution": -0.0013019293546676636
+      },
+      {
+        "token": ".",
+        "attribution": -0.023390576243400574
+      },
+      {
+        "token": "net",
+        "attribution": 0.035233570262789726
+      },
+      {
+        "token": "/",
+        "attribution": 0.7920301742851734
+      },
+      {
+        "token": "Tom",
+        "attribution": -0.007064051926136017
+      },
+      {
+        "token": "Han",
+        "attribution": 0.0064329830929636955
+      },
+      {
+        "token": "ks",
+        "attribution": -0.019548705779016018
+      },
+      {
+        "token": "",
+        "attribution": 2.421438694000244e-08
+      }
+    ]
+  },
+  {
+    "sample_id": 4,
+    "url": "hausgreen.info/wp-content/themes/twentyten/e3bay.co.uk2e.htm",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 0.6565129000227898,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": 0.00015701437757040064
+      },
+      {
+        "token": "ha",
+        "attribution": -0.007131901600708564
+      },
+      {
+        "token": "us",
+        "attribution": -0.011721350982164343
+      },
+      {
+        "token": "gree",
+        "attribution": -0.0008637985757862528
+      },
+      {
+        "token": "n",
+        "attribution": -0.0008637985757862528
+      },
+      {
+        "token": ".",
+        "attribution": 0.002041675014576564
+      },
+      {
+        "token": "info",
+        "attribution": 0.03730438236299152
+      },
+      {
+        "token": "/",
+        "attribution": 0.24433924158721412
+      },
+      {
+        "token": "w",
+        "attribution": 0.005416336410336144
+      },
+      {
+        "token": "p",
+        "attribution": 0.0012938705614134152
+      },
+      {
+        "token": "-",
+        "attribution": 0.010900360164588264
+      },
+      {
+        "token": "content",
+        "attribution": 0.013790231761878304
+      },
+      {
+        "token": "/",
+        "attribution": 0.10415906760067123
+      },
+      {
+        "token": "themes",
+        "attribution": -0.008167141992776628
+      },
+      {
+        "token": "/",
+        "attribution": 0.1069558135361553
+      },
+      {
+        "token": "twenty",
+        "attribution": -0.002651576478716119
+      },
+      {
+        "token": "ten",
+        "attribution": -0.020159670677717907
+      },
+      {
+        "token": "/",
+        "attribution": 0.3251775645601031
+      },
+      {
+        "token": "e",
+        "attribution": 0.030210380600432733
+      },
+      {
+        "token": "3",
+        "attribution": 0.03029650064889297
+      },
+      {
+        "token": "bay",
+        "attribution": 0.03597826544899449
+      },
+      {
+        "token": ".",
+        "attribution": 0.03890392428036735
+      },
+      {
+        "token": "co",
+        "attribution": -0.010389184268812338
+      },
+      {
+        "token": ".",
+        "attribution": -0.007110404937217633
+      },
+      {
+        "token": "uk",
+        "attribution": -0.0015909469996889434
+      },
+      {
+        "token": "2",
+        "attribution": -0.004823074288045367
+      },
+      {
+        "token": "e",
+        "attribution": -0.004823074288045367
+      },
+      {
+        "token": ".",
+        "attribution": -0.004602345327536265
+      },
+      {
+        "token": "h",
+        "attribution": -0.0026070079766213894
+      },
+      {
+        "token": "tm",
+        "attribution": -0.007476077880710363
+      },
+      {
+        "token": "",
+        "attribution": 3.24491411447525e-05
+      }
+    ]
+  },
+  {
+    "sample_id": 5,
+    "url": "'punto.gt/Aol/login.php?sitedomain=startpage.aol.com&amp;siteState=OrigUrl=http\\%3A\\%2F\\%2Fwww.aol.com\\%2F&amp;authLev=0&amp;lang=en&amp;locale=us'",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 1.7992030000314116,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": -0.00656573036685586
+      },
+      {
+        "token": "'",
+        "attribution": -0.00656573036685586
+      },
+      {
+        "token": "punt",
+        "attribution": -0.005043281521648168
+      },
+      {
+        "token": "o",
+        "attribution": -0.005043281521648168
+      },
+      {
+        "token": ".",
+        "attribution": 0.0171283015049994
+      },
+      {
+        "token": "gt",
+        "attribution": 0.031041180784814063
+      },
+      {
+        "token": "/",
+        "attribution": 0.16583925317972897
+      },
+      {
+        "token": "Ao",
+        "attribution": 0.0348857588658575
+      },
+      {
+        "token": "l",
+        "attribution": 0.0348857588658575
+      },
+      {
+        "token": "/",
+        "attribution": 0.1695064969942905
+      },
+      {
+        "token": "log",
+        "attribution": 0.03857061389135197
+      },
+      {
+        "token": "in",
+        "attribution": 0.03857061389135197
+      },
+      {
+        "token": ".",
+        "attribution": 0.03385774476919323
+      },
+      {
+        "token": "php",
+        "attribution": 0.033970696567040354
+      },
+      {
+        "token": "?",
+        "attribution": 0.03868420207355586
+      },
+      {
+        "token": "sited",
+        "attribution": 0.0021304994237623994
+      },
+      {
+        "token": "oma",
+        "attribution": 0.0021304994237623994
+      },
+      {
+        "token": "in",
+        "attribution": 0.0021304994237623994
+      },
+      {
+        "token": "=",
+        "attribution": 0.02404884472470879
+      },
+      {
+        "token": "start",
+        "attribution": 0.02404884472470879
+      },
+      {
+        "token": "page",
+        "attribution": 0.02404884472470879
+      },
+      {
+        "token": ".",
+        "attribution": 0.024048844724708786
+      },
+      {
+        "token": "ao",
+        "attribution": 0.02198184506657223
+      },
+      {
+        "token": "l",
+        "attribution": 0.019677956976617377
+      },
+      {
+        "token": ".",
+        "attribution": 0.032414322874198355
+      },
+      {
+        "token": "com",
+        "attribution": -0.0014188607034297247
+      },
+      {
+        "token": "&",
+        "attribution": -0.0014188607034297247
+      },
+      {
+        "token": "amp",
+        "attribution": -0.0014188607034297247
+      },
+      {
+        "token": ";",
+        "attribution": -0.0014188607034297247
+      },
+      {
+        "token": "siteS",
+        "attribution": -0.0014188607034297245
+      },
+      {
+        "token": "tate",
+        "attribution": -0.0014188607034297245
+      },
+      {
+        "token": "=",
+        "attribution": -0.0014188607034297245
+      },
+      {
+        "token": "Or",
+        "attribution": -0.002856745891262097
+      },
+      {
+        "token": "ig",
+        "attribution": -0.002856745891262097
+      },
+      {
+        "token": "Ur",
+        "attribution": -0.002856745891262097
+      },
+      {
+        "token": "l",
+        "attribution": -0.002856745891262097
+      },
+      {
+        "token": "=",
+        "attribution": 0.0005067283133391718
+      },
+      {
+        "token": "http",
+        "attribution": 0.0005067283133391718
+      },
+      {
+        "token": "\\",
+        "attribution": 0.0005067283133391718
+      },
+      {
+        "token": "%",
+        "attribution": 0.0005067283133391718
+      },
+      {
+        "token": "3A",
+        "attribution": 0.0005067283133391718
+      },
+      {
+        "token": "\\",
+        "attribution": 0.0005067283133391718
+      },
+      {
+        "token": "%",
+        "attribution": 0.0005067283133391718
+      },
+      {
+        "token": "2",
+        "attribution": 0.0008802692617503555
+      },
+      {
+        "token": "F",
+        "attribution": 0.0008802692617503555
+      },
+      {
+        "token": "\\",
+        "attribution": 0.0008802692617503555
+      },
+      {
+        "token": "%",
+        "attribution": 0.0008802692617503555
+      },
+      {
+        "token": "2",
+        "attribution": 0.0008802692617503555
+      },
+      {
+        "token": "F",
+        "attribution": 0.0008802692617503555
+      },
+      {
+        "token": "w",
+        "attribution": 0.0008802692617503554
+      },
+      {
+        "token": "w",
+        "attribution": 0.0008802692617503554
+      },
+      {
+        "token": "w",
+        "attribution": 0.0008802692617503554
+      },
+      {
+        "token": ".",
+        "attribution": 0.0008802692617503554
+      },
+      {
+        "token": "ao",
+        "attribution": 0.026653435258995942
+      },
+      {
+        "token": "l",
+        "attribution": 0.01650905743321424
+      },
+      {
+        "token": ".",
+        "attribution": 0.02479651588095372
+      },
+      {
+        "token": "com",
+        "attribution": 0.0010965918614105747
+      },
+      {
+        "token": "\\",
+        "attribution": 0.0010965918614105747
+      },
+      {
+        "token": "%",
+        "attribution": 0.0010965918614105747
+      },
+      {
+        "token": "2",
+        "attribution": 0.0010965918614105744
+      },
+      {
+        "token": "F",
+        "attribution": 0.0010965918614105744
+      },
+      {
+        "token": "&",
+        "attribution": -0.001598258770889405
+      },
+      {
+        "token": "amp",
+        "attribution": -0.001598258770889405
+      },
+      {
+        "token": ";",
+        "attribution": -0.001598258770889405
+      },
+      {
+        "token": "au",
+        "attribution": -0.0036982635854545865
+      },
+      {
+        "token": "th",
+        "attribution": -0.0036982635854545865
+      },
+      {
+        "token": "Lev",
+        "attribution": -0.0036982635854545865
+      },
+      {
+        "token": "=",
+        "attribution": -0.0006832393461509663
+      },
+      {
+        "token": "0",
+        "attribution": -0.0006832393461509663
+      },
+      {
+        "token": "&",
+        "attribution": -0.0006832393461509663
+      },
+      {
+        "token": "amp",
+        "attribution": -0.0006832393461509663
+      },
+      {
+        "token": ";",
+        "attribution": -0.0006832393461509663
+      },
+      {
+        "token": "lang",
+        "attribution": -0.0006832393461509663
+      },
+      {
+        "token": "=",
+        "attribution": -0.0006832393461509663
+      },
+      {
+        "token": "en",
+        "attribution": -0.0006832393461509663
+      },
+      {
+        "token": "&",
+        "attribution": -0.0006083201105688132
+      },
+      {
+        "token": "amp",
+        "attribution": -0.0006083201105688132
+      },
+      {
+        "token": ";",
+        "attribution": -0.0006083201105688132
+      },
+      {
+        "token": "local",
+        "attribution": -0.0006083201105688132
+      },
+      {
+        "token": "e",
+        "attribution": -0.0006083201105688132
+      },
+      {
+        "token": "=",
+        "attribution": -0.0006083201105688132
+      },
+      {
+        "token": "us",
+        "attribution": -0.0006083201105688132
+      },
+      {
+        "token": "'",
+        "attribution": -0.0006083201105688132
+      },
+      {
+        "token": "",
+        "attribution": -0.0006083201105688132
+      }
+    ]
+  },
+  {
+    "sample_id": 6,
+    "url": "https://tableau-et-compagnie.fr:443/wells-code",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 0.5255315999966115,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": -5.277339369058609e-05
+      },
+      {
+        "token": "https",
+        "attribution": 0.14229860808700323
+      },
+      {
+        "token": ":",
+        "attribution": 0.1689974450612984
+      },
+      {
+        "token": "/",
+        "attribution": 0.0776961071290619
+      },
+      {
+        "token": "/",
+        "attribution": -0.06209122640818047
+      },
+      {
+        "token": "table",
+        "attribution": 0.006603123527020216
+      },
+      {
+        "token": "au",
+        "attribution": -0.00913638537749648
+      },
+      {
+        "token": "-",
+        "attribution": -0.0021493463777005673
+      },
+      {
+        "token": "et",
+        "attribution": 0.019019974768161772
+      },
+      {
+        "token": "-",
+        "attribution": -0.016794154513627292
+      },
+      {
+        "token": "com",
+        "attribution": 0.0328997946344316
+      },
+      {
+        "token": "pa",
+        "attribution": 0.028658379334956408
+      },
+      {
+        "token": "gni",
+        "attribution": 0.0408429061062634
+      },
+      {
+        "token": "e",
+        "attribution": -0.0025004581548273563
+      },
+      {
+        "token": ".",
+        "attribution": 0.043137211352586746
+      },
+      {
+        "token": "fr",
+        "attribution": 0.016215356532484293
+      },
+      {
+        "token": ":",
+        "attribution": -0.048832903150469065
+      },
+      {
+        "token": "44",
+        "attribution": -0.047434211242944
+      },
+      {
+        "token": "3",
+        "attribution": 0.02519603120163083
+      },
+      {
+        "token": "/",
+        "attribution": -0.23793707229197025
+      },
+      {
+        "token": "wells",
+        "attribution": -0.025050492957234383
+      },
+      {
+        "token": "-",
+        "attribution": -0.028747763795157272
+      },
+      {
+        "token": "code",
+        "attribution": -0.011076744956274828
+      },
+      {
+        "token": "",
+        "attribution": 0.00048423993090788525
+      }
+    ]
+  },
+  {
+    "sample_id": 7,
+    "url": "lib.o56.ru/lat/ASPRIN/Thieves_World-2.txt",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 0.5006216000183485,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": 0.00042685183386007947
+      },
+      {
+        "token": "li",
+        "attribution": -0.004907094019775589
+      },
+      {
+        "token": "b",
+        "attribution": -0.004907094019775589
+      },
+      {
+        "token": ".",
+        "attribution": 0.0010543479584157467
+      },
+      {
+        "token": "o",
+        "attribution": -0.008366299560293555
+      },
+      {
+        "token": "56",
+        "attribution": -0.002998958108946681
+      },
+      {
+        "token": ".",
+        "attribution": 0.006299866829067469
+      },
+      {
+        "token": "ru",
+        "attribution": 0.008903519506566227
+      },
+      {
+        "token": "/",
+        "attribution": 0.20705378011334688
+      },
+      {
+        "token": "la",
+        "attribution": -0.006371695224273329
+      },
+      {
+        "token": "t",
+        "attribution": -0.004528999004590636
+      },
+      {
+        "token": "/",
+        "attribution": 0.15902245277926946
+      },
+      {
+        "token": "AS",
+        "attribution": 0.0017320524047439298
+      },
+      {
+        "token": "PR",
+        "attribution": 0.0017320524047439298
+      },
+      {
+        "token": "IN",
+        "attribution": 0.0017320524047439298
+      },
+      {
+        "token": "/",
+        "attribution": 0.3382743828347884
+      },
+      {
+        "token": "Thieves",
+        "attribution": 0.009846089780330658
+      },
+      {
+        "token": "_",
+        "attribution": 0.1173182387079578
+      },
+      {
+        "token": "World",
+        "attribution": 0.04266859648632817
+      },
+      {
+        "token": "-",
+        "attribution": 0.0015284401054183644
+      },
+      {
+        "token": "2",
+        "attribution": 0.0015284401054183644
+      },
+      {
+        "token": ".",
+        "attribution": 0.0267795297006766
+      },
+      {
+        "token": "tx",
+        "attribution": 0.0034552273961404962
+      },
+      {
+        "token": "t",
+        "attribution": -0.004404986122002204
+      },
+      {
+        "token": "",
+        "attribution": -0.000979256195326646
+      }
+    ]
+  },
+  {
+    "sample_id": 8,
+    "url": "http://storiesdining.com/reservations/make-a-reservation",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 0.48794969997834414,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": -2.5873305276036263e-08
+      },
+      {
+        "token": "http",
+        "attribution": 0.1812338318559341
+      },
+      {
+        "token": ":",
+        "attribution": 0.17419002978203935
+      },
+      {
+        "token": "/",
+        "attribution": 0.05786685907878564
+      },
+      {
+        "token": "/",
+        "attribution": -0.015896325778157916
+      },
+      {
+        "token": "stories",
+        "attribution": -0.02903296969270741
+      },
+      {
+        "token": "dini",
+        "attribution": 0.030774514752920368
+      },
+      {
+        "token": "ng",
+        "attribution": 0.06349089142531739
+      },
+      {
+        "token": ".",
+        "attribution": 0.08471777031809324
+      },
+      {
+        "token": "com",
+        "attribution": -0.02450357936322689
+      },
+      {
+        "token": "/",
+        "attribution": -0.26724608917720616
+      },
+      {
+        "token": "reservations",
+        "attribution": 0.04934131447225809
+      },
+      {
+        "token": "/",
+        "attribution": -0.161314275697805
+      },
+      {
+        "token": "make",
+        "attribution": -0.05849432782270014
+      },
+      {
+        "token": "-",
+        "attribution": -0.047928526386385784
+      },
+      {
+        "token": "a",
+        "attribution": -0.0331474244594574
+      },
+      {
+        "token": "-",
+        "attribution": 0.02312302592326887
+      },
+      {
+        "token": "reservation",
+        "attribution": 0.09508600007393397
+      },
+      {
+        "token": "",
+        "attribution": -3.6961864680051804e-09
+      }
+    ]
+  },
+  {
+    "sample_id": 9,
+    "url": "www.erbix.com/eris-form-creator/",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 0.36850300000514835,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": 1.1583324521780014e-08
+      },
+      {
+        "token": "www",
+        "attribution": 0.5028361619333737
+      },
+      {
+        "token": ".",
+        "attribution": 0.01679749262984842
+      },
+      {
+        "token": "er",
+        "attribution": 0.018304108547454234
+      },
+      {
+        "token": "bi",
+        "attribution": -0.004917913502140436
+      },
+      {
+        "token": "x",
+        "attribution": 0.0044020649656886235
+      },
+      {
+        "token": ".",
+        "attribution": 6.563565693795681e-05
+      },
+      {
+        "token": "com",
+        "attribution": -0.06415025303431321
+      },
+      {
+        "token": "/",
+        "attribution": -0.1502377108699875
+      },
+      {
+        "token": "er",
+        "attribution": 0.031312267514294945
+      },
+      {
+        "token": "is",
+        "attribution": -0.016784427061793394
+      },
+      {
+        "token": "-",
+        "attribution": -0.005083095995360054
+      },
+      {
+        "token": "form",
+        "attribution": 0.024226838737376966
+      },
+      {
+        "token": "-",
+        "attribution": -0.012311540369410068
+      },
+      {
+        "token": "creator",
+        "attribution": 0.00546215771464631
+      },
+      {
+        "token": "/",
+        "attribution": -0.19736860104603693
+      },
+      {
+        "token": "",
+        "attribution": 3.3178366720676422e-09
+      }
+    ]
+  },
+  {
+    "sample_id": 10,
+    "url": "www.styopkin.com/rosary_screen_saver.html",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 0.508973199990578,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": 0.0005423318652901798
+      },
+      {
+        "token": "www",
+        "attribution": 0.25921984390879516
+      },
+      {
+        "token": ".",
+        "attribution": 0.11966837274667341
+      },
+      {
+        "token": "st",
+        "attribution": 0.05615487187169492
+      },
+      {
+        "token": "yo",
+        "attribution": 0.012453115126118065
+      },
+      {
+        "token": "p",
+        "attribution": 0.018023083498701454
+      },
+      {
+        "token": "kin",
+        "attribution": 0.03641871227882802
+      },
+      {
+        "token": ".",
+        "attribution": 0.03113835263065994
+      },
+      {
+        "token": "com",
+        "attribution": 0.04295054581598379
+      },
+      {
+        "token": "/",
+        "attribution": -0.28112153796246275
+      },
+      {
+        "token": "rosary",
+        "attribution": 0.04175339148787316
+      },
+      {
+        "token": "_",
+        "attribution": -0.05365330629865639
+      },
+      {
+        "token": "screen",
+        "attribution": -0.1272115437022876
+      },
+      {
+        "token": "_",
+        "attribution": -0.08410212346279877
+      },
+      {
+        "token": "save",
+        "attribution": -0.050399280571582494
+      },
+      {
+        "token": "r",
+        "attribution": 0.009461620404181303
+      },
+      {
+        "token": ".",
+        "attribution": 0.0288464683580969
+      },
+      {
+        "token": "html",
+        "attribution": 0.0680404983140761
+      },
+      {
+        "token": "",
+        "attribution": 3.493648546282202e-05
+      }
+    ]
+  },
+  {
+    "sample_id": 11,
+    "url": "corporate.univision.com/2007/05/disney-abc-international-television-latin-america-and-univision-sign-unprecedented-strategic-production-agreement/",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 0.8479687999933958,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": -0.0013078867147366207
+      },
+      {
+        "token": "corporate",
+        "attribution": -0.004039293775955836
+      },
+      {
+        "token": ".",
+        "attribution": -0.005228257427612941
+      },
+      {
+        "token": "un",
+        "attribution": -0.00049624964594841
+      },
+      {
+        "token": "ivision",
+        "attribution": -0.014718138612806797
+      },
+      {
+        "token": ".",
+        "attribution": -0.005365707911550999
+      },
+      {
+        "token": "com",
+        "attribution": 0.06838845019228756
+      },
+      {
+        "token": "/",
+        "attribution": 0.14000824023969471
+      },
+      {
+        "token": "2007",
+        "attribution": -0.0015745209529995918
+      },
+      {
+        "token": "/",
+        "attribution": 0.06548268580809236
+      },
+      {
+        "token": "05",
+        "attribution": 0.015625249478034675
+      },
+      {
+        "token": "/",
+        "attribution": 0.13908003142569214
+      },
+      {
+        "token": "disney",
+        "attribution": 0.019099415047094226
+      },
+      {
+        "token": "-",
+        "attribution": 0.013121654046699405
+      },
+      {
+        "token": "abc",
+        "attribution": 0.006637016861614856
+      },
+      {
+        "token": "-",
+        "attribution": 0.006637016861614856
+      },
+      {
+        "token": "international",
+        "attribution": 0.001408235254612836
+      },
+      {
+        "token": "-",
+        "attribution": 0.001408235254612836
+      },
+      {
+        "token": "television",
+        "attribution": 0.00549365234313315
+      },
+      {
+        "token": "-",
+        "attribution": 0.00549365234313315
+      },
+      {
+        "token": "latin",
+        "attribution": 0.00549431439706838
+      },
+      {
+        "token": "-",
+        "attribution": 0.00549431439706838
+      },
+      {
+        "token": "america",
+        "attribution": 0.0012095936068063562
+      },
+      {
+        "token": "-",
+        "attribution": 0.0012095936068063562
+      },
+      {
+        "token": "and",
+        "attribution": 0.0012095936068063562
+      },
+      {
+        "token": "-",
+        "attribution": 0.009097310962776342
+      },
+      {
+        "token": "un",
+        "attribution": 0.03788229999287675
+      },
+      {
+        "token": "ivision",
+        "attribution": 0.013666087427797416
+      },
+      {
+        "token": "-",
+        "attribution": 0.02072295268687109
+      },
+      {
+        "token": "sign",
+        "attribution": 0.011658462711299458
+      },
+      {
+        "token": "-",
+        "attribution": 0.028344417937720814
+      },
+      {
+        "token": "unprecedented",
+        "attribution": 0.008851991981888812
+      },
+      {
+        "token": "-",
+        "attribution": 0.00200972113913546
+      },
+      {
+        "token": "strategic",
+        "attribution": 0.00200972113913546
+      },
+      {
+        "token": "-",
+        "attribution": -0.0030471909403180083
+      },
+      {
+        "token": "production",
+        "attribution": -0.0030471909403180083
+      },
+      {
+        "token": "-",
+        "attribution": 0.0011874567872534195
+      },
+      {
+        "token": "agreement",
+        "attribution": 0.0011874567872534195
+      },
+      {
+        "token": "/",
+        "attribution": 0.27353632521505156
+      },
+      {
+        "token": "",
+        "attribution": 7.280033702651659e-05
+      }
+    ]
+  },
+  {
+    "sample_id": 12,
+    "url": "careerbuilder.com/Jobs/Company/C8A1KV665NW9TVNKR7Z/Shook-Hardy-Bacon-LLP-Jobs/",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 0.8132974000182003,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": 1.1012144386768342e-05
+      },
+      {
+        "token": "career",
+        "attribution": -0.008210657793097199
+      },
+      {
+        "token": "bu",
+        "attribution": -0.008210657793097199
+      },
+      {
+        "token": "ilde",
+        "attribution": -0.02089819048997015
+      },
+      {
+        "token": "r",
+        "attribution": -0.00805235484149307
+      },
+      {
+        "token": ".",
+        "attribution": -0.0027658198960125446
+      },
+      {
+        "token": "com",
+        "attribution": 0.13707644199686392
+      },
+      {
+        "token": "/",
+        "attribution": 0.22209152484512223
+      },
+      {
+        "token": "Jobs",
+        "attribution": 0.036488024093809406
+      },
+      {
+        "token": "/",
+        "attribution": 0.0719946187870976
+      },
+      {
+        "token": "Company",
+        "attribution": 0.0030154613999738575
+      },
+      {
+        "token": "/",
+        "attribution": 0.0030154613999738575
+      },
+      {
+        "token": "C",
+        "attribution": 0.0031007181609138132
+      },
+      {
+        "token": "8",
+        "attribution": 6.051827222108841e-05
+      },
+      {
+        "token": "A1",
+        "attribution": 6.051827222108841e-05
+      },
+      {
+        "token": "K",
+        "attribution": 6.051827222108841e-05
+      },
+      {
+        "token": "V",
+        "attribution": 6.051827222108841e-05
+      },
+      {
+        "token": "66",
+        "attribution": -0.00020089908502995968
+      },
+      {
+        "token": "5",
+        "attribution": -0.00020089908502995968
+      },
+      {
+        "token": "N",
+        "attribution": -0.00020089908502995968
+      },
+      {
+        "token": "W",
+        "attribution": -0.00020089908502995968
+      },
+      {
+        "token": "9",
+        "attribution": 0.0031575462911094193
+      },
+      {
+        "token": "TV",
+        "attribution": -0.00042180715689411116
+      },
+      {
+        "token": "NK",
+        "attribution": -0.0012143696528111928
+      },
+      {
+        "token": "R",
+        "attribution": -0.00039508704656710555
+      },
+      {
+        "token": "7",
+        "attribution": 0.005081151377740562
+      },
+      {
+        "token": "Z",
+        "attribution": 0.009776367571535766
+      },
+      {
+        "token": "/",
+        "attribution": 0.10809423868915091
+      },
+      {
+        "token": "Shook",
+        "attribution": 0.020378300845837465
+      },
+      {
+        "token": "-",
+        "attribution": 0.008651233713240608
+      },
+      {
+        "token": "Hardy",
+        "attribution": 0.008651233713240608
+      },
+      {
+        "token": "-",
+        "attribution": 0.02060668050973235
+      },
+      {
+        "token": "Bacon",
+        "attribution": 0.02189698556168495
+      },
+      {
+        "token": "-",
+        "attribution": 0.014628841511071905
+      },
+      {
+        "token": "LL",
+        "attribution": 0.027570245713209977
+      },
+      {
+        "token": "P",
+        "attribution": 0.02414800079560863
+      },
+      {
+        "token": "-",
+        "attribution": 0.011620798772415392
+      },
+      {
+        "token": "Jobs",
+        "attribution": 0.013250372065445654
+      },
+      {
+        "token": "/",
+        "attribution": 0.14941437347289666
+      },
+      {
+        "token": "",
+        "attribution": 0.0010001781323042355
+      }
+    ]
+  },
+  {
+    "sample_id": 13,
+    "url": "http://89.32.41.63/mips",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 0.2688131000031717,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": -3.3527612686157227e-08
+      },
+      {
+        "token": "http",
+        "attribution": 0.3170756828330923
+      },
+      {
+        "token": ":",
+        "attribution": 0.29061201681906823
+      },
+      {
+        "token": "/",
+        "attribution": 0.061296527288504876
+      },
+      {
+        "token": "/",
+        "attribution": -0.21106241852976382
+      },
+      {
+        "token": "89",
+        "attribution": -0.008081540756393224
+      },
+      {
+        "token": ".",
+        "attribution": -0.045161725487560034
+      },
+      {
+        "token": "32",
+        "attribution": 0.02647134754806757
+      },
+      {
+        "token": ".",
+        "attribution": -0.04958167765289545
+      },
+      {
+        "token": "41",
+        "attribution": 0.026296635158360004
+      },
+      {
+        "token": ".",
+        "attribution": -0.0786216976121068
+      },
+      {
+        "token": "63",
+        "attribution": 0.046732859686017036
+      },
+      {
+        "token": "/",
+        "attribution": -0.2882891548797488
+      },
+      {
+        "token": "mi",
+        "attribution": 0.023688048589974642
+      },
+      {
+        "token": "ps",
+        "attribution": 0.050045591313391924
+      },
+      {
+        "token": "",
+        "attribution": 3.725290298461914e-09
+      }
+    ]
+  },
+  {
+    "sample_id": 14,
+    "url": "vlaff.org/",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 0.07274749997304752,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": 3.91155481338501e-08
+      },
+      {
+        "token": "v",
+        "attribution": -0.04621087294071913
+      },
+      {
+        "token": "la",
+        "attribution": 0.01608164794743061
+      },
+      {
+        "token": "ff",
+        "attribution": -0.029676632024347782
+      },
+      {
+        "token": ".",
+        "attribution": -0.01971404254436493
+      },
+      {
+        "token": "org",
+        "attribution": -0.005384920630604029
+      },
+      {
+        "token": "/",
+        "attribution": 0.8471977603621781
+      },
+      {
+        "token": "",
+        "attribution": -1.30385160446167e-08
+      }
+    ]
+  },
+  {
+    "sample_id": 15,
+    "url": "http://www.multisolexpress.com.br/index.php?option=com_content&view=article&id=33:seguro-habitacional&catid=16:seguro-habitacional&Itemid=3",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 1.3284737999783829,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": 0.005888096239816929
+      },
+      {
+        "token": "http",
+        "attribution": 0.06447076201688365
+      },
+      {
+        "token": ":",
+        "attribution": 0.12819686907927721
+      },
+      {
+        "token": "/",
+        "attribution": 0.1406609143715676
+      },
+      {
+        "token": "/",
+        "attribution": 0.01774651687914489
+      },
+      {
+        "token": "www",
+        "attribution": 0.14310451282394102
+      },
+      {
+        "token": ".",
+        "attribution": 0.017999512144472516
+      },
+      {
+        "token": "multi",
+        "attribution": 0.0024137146945577117
+      },
+      {
+        "token": "sol",
+        "attribution": 0.0024137146945577117
+      },
+      {
+        "token": "ex",
+        "attribution": 0.0013780616398435086
+      },
+      {
+        "token": "press",
+        "attribution": 0.0013780616398435086
+      },
+      {
+        "token": ".",
+        "attribution": 0.0004951534327119588
+      },
+      {
+        "token": "com",
+        "attribution": -0.01566495592123829
+      },
+      {
+        "token": ".",
+        "attribution": -0.08832162964972667
+      },
+      {
+        "token": "br",
+        "attribution": -0.012527953964308836
+      },
+      {
+        "token": "/",
+        "attribution": -0.28335820813663304
+      },
+      {
+        "token": "index",
+        "attribution": -0.004285964430891909
+      },
+      {
+        "token": ".",
+        "attribution": -0.03773176987306215
+      },
+      {
+        "token": "php",
+        "attribution": -0.00018919032299891114
+      },
+      {
+        "token": "?",
+        "attribution": -0.00018919032299891114
+      },
+      {
+        "token": "option",
+        "attribution": 0.00029497983909788586
+      },
+      {
+        "token": "=",
+        "attribution": 0.00029497983909788586
+      },
+      {
+        "token": "com",
+        "attribution": 0.00029497983909788586
+      },
+      {
+        "token": "_",
+        "attribution": -0.0010653061880951835
+      },
+      {
+        "token": "content",
+        "attribution": -0.0010653061880951835
+      },
+      {
+        "token": "&",
+        "attribution": -0.0010653061880951835
+      },
+      {
+        "token": "view",
+        "attribution": -0.0010653061880951835
+      },
+      {
+        "token": "=",
+        "attribution": 0.002350340375588054
+      },
+      {
+        "token": "article",
+        "attribution": 0.002350340375588054
+      },
+      {
+        "token": "&",
+        "attribution": 0.002350340375588054
+      },
+      {
+        "token": "id",
+        "attribution": 0.002350340375588054
+      },
+      {
+        "token": "=",
+        "attribution": 0.0005640469136692229
+      },
+      {
+        "token": "33",
+        "attribution": 0.0005640469136692229
+      },
+      {
+        "token": ":",
+        "attribution": 0.0005640469136692229
+      },
+      {
+        "token": "se",
+        "attribution": 0.0006964727615316708
+      },
+      {
+        "token": "gur",
+        "attribution": 0.0006964727615316708
+      },
+      {
+        "token": "o",
+        "attribution": 0.0006964727615316708
+      },
+      {
+        "token": "-",
+        "attribution": 0.0006964727615316709
+      },
+      {
+        "token": "habit",
+        "attribution": 0.004107659930984179
+      },
+      {
+        "token": "acion",
+        "attribution": 0.004107659930984179
+      },
+      {
+        "token": "al",
+        "attribution": 0.004107659930984179
+      },
+      {
+        "token": "&",
+        "attribution": 0.003677523011962573
+      },
+      {
+        "token": "cat",
+        "attribution": 0.003677523011962573
+      },
+      {
+        "token": "id",
+        "attribution": 0.003677523011962573
+      },
+      {
+        "token": "=",
+        "attribution": 0.0010963074330772673
+      },
+      {
+        "token": "16",
+        "attribution": 0.0010963074330772673
+      },
+      {
+        "token": ":",
+        "attribution": 0.0010963074330772673
+      },
+      {
+        "token": "se",
+        "attribution": 0.0010963074330772673
+      },
+      {
+        "token": "gur",
+        "attribution": 0.0010963074330772673
+      },
+      {
+        "token": "o",
+        "attribution": 0.0010963074330772673
+      },
+      {
+        "token": "-",
+        "attribution": 0.0010963074330772673
+      },
+      {
+        "token": "habit",
+        "attribution": 0.0051178596913814545
+      },
+      {
+        "token": "acion",
+        "attribution": 0.0051178596913814545
+      },
+      {
+        "token": "al",
+        "attribution": 0.0051178596913814545
+      },
+      {
+        "token": "&",
+        "attribution": 0.005260339627663295
+      },
+      {
+        "token": "Item",
+        "attribution": 0.005260339627663295
+      },
+      {
+        "token": "id",
+        "attribution": 0.005260339627663295
+      },
+      {
+        "token": "=",
+        "attribution": 0.00023164786398410797
+      },
+      {
+        "token": "3",
+        "attribution": 0.00023164786398410797
+      },
+      {
+        "token": "",
+        "attribution": 0.00023164786398410797
+      }
+    ]
+  },
+  {
+    "sample_id": 16,
+    "url": "makethemworkforyou.com/Municipal/Edmonton/CityCouncil.aspx",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 0.5278534999815747,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": 2.5011532540832248e-05
+      },
+      {
+        "token": "make",
+        "attribution": -0.014626803699814315
+      },
+      {
+        "token": "the",
+        "attribution": -0.002928052920781608
+      },
+      {
+        "token": "m",
+        "attribution": -0.011370129076697464
+      },
+      {
+        "token": "work",
+        "attribution": -0.012286546764828796
+      },
+      {
+        "token": "for",
+        "attribution": -0.006247279882830169
+      },
+      {
+        "token": "you",
+        "attribution": 0.008872804049003338
+      },
+      {
+        "token": ".",
+        "attribution": 0.009772990830242634
+      },
+      {
+        "token": "com",
+        "attribution": 0.0686469666834455
+      },
+      {
+        "token": "/",
+        "attribution": 0.3136677058355417
+      },
+      {
+        "token": "Municipal",
+        "attribution": -0.036875474936096
+      },
+      {
+        "token": "/",
+        "attribution": 0.21982478772406466
+      },
+      {
+        "token": "Edmonton",
+        "attribution": 0.012135447061154991
+      },
+      {
+        "token": "/",
+        "attribution": 0.36187886964762583
+      },
+      {
+        "token": "City",
+        "attribution": -0.006297998473746702
+      },
+      {
+        "token": "Co",
+        "attribution": -0.003147235367214307
+      },
+      {
+        "token": "un",
+        "attribution": -0.0013411542885781577
+      },
+      {
+        "token": "ci",
+        "attribution": -0.002349894332777088
+      },
+      {
+        "token": "l",
+        "attribution": -0.003120264372167488
+      },
+      {
+        "token": ".",
+        "attribution": -0.008223692886531353
+      },
+      {
+        "token": "as",
+        "attribution": 0.003793775530842443
+      },
+      {
+        "token": "p",
+        "attribution": -0.0046554021925355
+      },
+      {
+        "token": "x",
+        "attribution": 0.00383582905245324
+      },
+      {
+        "token": "",
+        "attribution": 1.3601966202259064e-06
+      }
+    ]
+  },
+  {
+    "sample_id": 17,
+    "url": "https://mitsui-jyuku.mixh.jp/uploads/1671q2w3ez1x2c3.exe",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 0.7894533000071533,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": 0.0038960257079452276
+      },
+      {
+        "token": "https",
+        "attribution": 0.16417323747009505
+      },
+      {
+        "token": ":",
+        "attribution": 0.2091188687269702
+      },
+      {
+        "token": "/",
+        "attribution": 0.11320272542495029
+      },
+      {
+        "token": "/",
+        "attribution": 0.008135621234638771
+      },
+      {
+        "token": "mit",
+        "attribution": -0.0006797550195187796
+      },
+      {
+        "token": "su",
+        "attribution": -0.0006797550195187796
+      },
+      {
+        "token": "i",
+        "attribution": -0.0006797550195187796
+      },
+      {
+        "token": "-",
+        "attribution": -0.0006797550195187796
+      },
+      {
+        "token": "j",
+        "attribution": -0.00018536834856301235
+      },
+      {
+        "token": "yu",
+        "attribution": -0.00018536834856301235
+      },
+      {
+        "token": "ku",
+        "attribution": -0.00018536834856301235
+      },
+      {
+        "token": ".",
+        "attribution": -0.01743827418613364
+      },
+      {
+        "token": "mix",
+        "attribution": 0.002947607679137339
+      },
+      {
+        "token": "h",
+        "attribution": 0.002947607679137339
+      },
+      {
+        "token": ".",
+        "attribution": -0.051146993918033935
+      },
+      {
+        "token": "jp",
+        "attribution": -0.039578018661000226
+      },
+      {
+        "token": "/",
+        "attribution": -0.09131943057046125
+      },
+      {
+        "token": "up",
+        "attribution": -0.006551670094363784
+      },
+      {
+        "token": "load",
+        "attribution": -0.005931606700055694
+      },
+      {
+        "token": "s",
+        "attribution": 0.0011017411506097563
+      },
+      {
+        "token": "/",
+        "attribution": -0.0918486301762689
+      },
+      {
+        "token": "167",
+        "attribution": -0.046485133187257145
+      },
+      {
+        "token": "1",
+        "attribution": -0.008818927870475148
+      },
+      {
+        "token": "q",
+        "attribution": -0.008818927870475148
+      },
+      {
+        "token": "2",
+        "attribution": 4.954571149459009e-05
+      },
+      {
+        "token": "w",
+        "attribution": 4.954571149459009e-05
+      },
+      {
+        "token": "3",
+        "attribution": 4.954571149459009e-05
+      },
+      {
+        "token": "ez",
+        "attribution": 4.954571149459009e-05
+      },
+      {
+        "token": "1",
+        "attribution": -0.016940891445336635
+      },
+      {
+        "token": "x",
+        "attribution": -0.00879452720349818
+      },
+      {
+        "token": "2",
+        "attribution": -0.004109731927236314
+      },
+      {
+        "token": "c",
+        "attribution": -0.005435460298975701
+      },
+      {
+        "token": "3",
+        "attribution": -0.009164001728130276
+      },
+      {
+        "token": ".",
+        "attribution": -0.010179089643714721
+      },
+      {
+        "token": "ex",
+        "attribution": 0.02353489554176728
+      },
+      {
+        "token": "e",
+        "attribution": 0.016943579229215782
+      },
+      {
+        "token": "",
+        "attribution": 0.0006423598776261011
+      }
+    ]
+  },
+  {
+    "sample_id": 18,
+    "url": "http://www.electrosistemas.com.ar/index.php?option=com_virtuemart&page=shop.browse&category_id=12&Itemid=2&TreeId=15",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 1.0158935000072233,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": 0.015508416581204594
+      },
+      {
+        "token": "http",
+        "attribution": 0.08404448610911329
+      },
+      {
+        "token": ":",
+        "attribution": 0.13710751459932777
+      },
+      {
+        "token": "/",
+        "attribution": 0.12467248040177635
+      },
+      {
+        "token": "/",
+        "attribution": -0.008207759633694963
+      },
+      {
+        "token": "www",
+        "attribution": 0.16330265647117076
+      },
+      {
+        "token": ".",
+        "attribution": 0.01923479652101551
+      },
+      {
+        "token": "electro",
+        "attribution": 0.005413083196617663
+      },
+      {
+        "token": "sis",
+        "attribution": 0.005413083196617663
+      },
+      {
+        "token": "tem",
+        "attribution": 0.005413083196617663
+      },
+      {
+        "token": "as",
+        "attribution": 0.005413083196617663
+      },
+      {
+        "token": ".",
+        "attribution": 0.0023488829145208003
+      },
+      {
+        "token": "com",
+        "attribution": -0.010765532454618216
+      },
+      {
+        "token": ".",
+        "attribution": -0.027585208256871403
+      },
+      {
+        "token": "ar",
+        "attribution": -0.09627854372719045
+      },
+      {
+        "token": "/",
+        "attribution": -0.24755381492412742
+      },
+      {
+        "token": "index",
+        "attribution": -0.0013243438337539964
+      },
+      {
+        "token": ".",
+        "attribution": -0.031158723927594684
+      },
+      {
+        "token": "php",
+        "attribution": -0.004776262500902368
+      },
+      {
+        "token": "?",
+        "attribution": -0.004776262500902368
+      },
+      {
+        "token": "option",
+        "attribution": -0.0007544933532626833
+      },
+      {
+        "token": "=",
+        "attribution": -0.0007544933532626833
+      },
+      {
+        "token": "com",
+        "attribution": -0.0007544933532626833
+      },
+      {
+        "token": "_",
+        "attribution": -0.0007544933532626833
+      },
+      {
+        "token": "virtue",
+        "attribution": -0.0007544933532626833
+      },
+      {
+        "token": "mart",
+        "attribution": -0.0007544933532626833
+      },
+      {
+        "token": "&",
+        "attribution": -0.00023738332340631938
+      },
+      {
+        "token": "page",
+        "attribution": -0.00023738332340631938
+      },
+      {
+        "token": "=",
+        "attribution": -0.00023738332340631938
+      },
+      {
+        "token": "shop",
+        "attribution": -0.00023738332340631938
+      },
+      {
+        "token": ".",
+        "attribution": -0.00023738332340631938
+      },
+      {
+        "token": "brows",
+        "attribution": 0.001216541975736618
+      },
+      {
+        "token": "e",
+        "attribution": 0.001216541975736618
+      },
+      {
+        "token": "&",
+        "attribution": 0.001216541975736618
+      },
+      {
+        "token": "category",
+        "attribution": 0.001216541975736618
+      },
+      {
+        "token": "_",
+        "attribution": -0.010617441311478616
+      },
+      {
+        "token": "id",
+        "attribution": -0.010617441311478616
+      },
+      {
+        "token": "=",
+        "attribution": -0.004648020615180334
+      },
+      {
+        "token": "12",
+        "attribution": -0.004648020615180334
+      },
+      {
+        "token": "&",
+        "attribution": -0.004648020615180334
+      },
+      {
+        "token": "Item",
+        "attribution": 0.009898577257990837
+      },
+      {
+        "token": "id",
+        "attribution": 0.009898577257990837
+      },
+      {
+        "token": "=",
+        "attribution": 0.0035394079983234405
+      },
+      {
+        "token": "2",
+        "attribution": 0.0035394079983234405
+      },
+      {
+        "token": "&",
+        "attribution": 0.0035394079983234405
+      },
+      {
+        "token": "Tree",
+        "attribution": 0.0028436020016670226
+      },
+      {
+        "token": "Id",
+        "attribution": 0.0028436020016670226
+      },
+      {
+        "token": "=",
+        "attribution": 0.0028436020016670226
+      },
+      {
+        "token": "15",
+        "attribution": 0.0028436020016670226
+      },
+      {
+        "token": "",
+        "attribution": 0.0028436020016670226
+      }
+    ]
+  },
+  {
+    "sample_id": 19,
+    "url": "legacy.com/obituaries/ctpost/obituary.aspx?n=charles-r-feld&pid=105444849&fhid=4894",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 0.8953690999769606,
+    "tokens": [
+      {
+        "token": "",
+        "attribution": 0.0018182285906126101
+      },
+      {
+        "token": "legacy",
+        "attribution": 0.004346770312016209
+      },
+      {
+        "token": ".",
+        "attribution": -0.0005117218631009262
+      },
+      {
+        "token": "com",
+        "attribution": 0.0637983727036044
+      },
+      {
+        "token": "/",
+        "attribution": 0.3534947117557749
+      },
+      {
+        "token": "ob",
+        "attribution": 0.007031083472732765
+      },
+      {
+        "token": "it",
+        "attribution": 0.010893152926776868
+      },
+      {
+        "token": "uaries",
+        "attribution": -0.0017303935581973442
+      },
+      {
+        "token": "/",
+        "attribution": 0.19148448734388998
+      },
+      {
+        "token": "ct",
+        "attribution": 0.01699630650303637
+      },
+      {
+        "token": "post",
+        "attribution": 0.0076131300496247905
+      },
+      {
+        "token": "/",
+        "attribution": 0.17148770842080316
+      },
+      {
+        "token": "obituary",
+        "attribution": 0.015908522492585085
+      },
+      {
+        "token": ".",
+        "attribution": 0.02870972939611723
+      },
+      {
+        "token": "as",
+        "attribution": 0.0010272564832121134
+      },
+      {
+        "token": "p",
+        "attribution": -0.001663625007495284
+      },
+      {
+        "token": "x",
+        "attribution": 0.003343640360981226
+      },
+      {
+        "token": "?",
+        "attribution": 0.019832168705761433
+      },
+      {
+        "token": "n",
+        "attribution": 0.0019360365501294534
+      },
+      {
+        "token": "=",
+        "attribution": 0.0019360365501294534
+      },
+      {
+        "token": "charles",
+        "attribution": 0.00267374647470812
+      },
+      {
+        "token": "-",
+        "attribution": 0.00267374647470812
+      },
+      {
+        "token": "r",
+        "attribution": -0.0009353336257239183
+      },
+      {
+        "token": "-",
+        "attribution": 0.0018103552671770253
+      },
+      {
+        "token": "fe",
+        "attribution": -0.02115380121783043
+      },
+      {
+        "token": "ld",
+        "attribution": -0.009385588675892603
+      },
+      {
+        "token": "&",
+        "attribution": -0.007206217191802959
+      },
+      {
+        "token": "pi",
+        "attribution": 0.0017079907081400355
+      },
+      {
+        "token": "d",
+        "attribution": 0.0017079907081400355
+      },
+      {
+        "token": "=",
+        "attribution": 0.003055849166897436
+      },
+      {
+        "token": "105",
+        "attribution": 0.003055849166897436
+      },
+      {
+        "token": "44",
+        "attribution": 0.001547804040213426
+      },
+      {
+        "token": "48",
+        "attribution": 0.001547804040213426
+      },
+      {
+        "token": "49",
+        "attribution": 0.001103764104967316
+      },
+      {
+        "token": "&",
+        "attribution": 0.001103764104967316
+      },
+      {
+        "token": "f",
+        "attribution": -0.008762968999023239
+      },
+      {
+        "token": "hid",
+        "attribution": -0.005601722110683719
+      },
+      {
+        "token": "=",
+        "attribution": 0.0004628449057539304
+      },
+      {
+        "token": "48",
+        "attribution": 0.0004628449057539304
+      },
+      {
+        "token": "9",
+        "attribution": 0.001377168127025167
+      },
+      {
+        "token": "4",
+        "attribution": 0.001377168127025167
+      },
+      {
+        "token": "",
+        "attribution": 3.602008024851481e-05
+      }
+    ]
+  }
+]

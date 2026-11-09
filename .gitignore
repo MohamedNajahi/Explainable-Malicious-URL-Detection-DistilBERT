@@ -1,0 +1,33 @@
+
+# Virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large research files
+models/
+dataset/
+*.pt
+*.pth
+*.safetensors
+*.h5
+*.parquet
+
+# Temporary folders
+.backup/
+.refact/
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log

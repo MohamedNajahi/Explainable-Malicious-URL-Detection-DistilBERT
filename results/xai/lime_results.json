@@ -1,0 +1,982 @@
+[
+  {
+    "sample_id": 0,
+    "url": "platteriverdecoyco.com/demo.html",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 0.833722300012596,
+    "local_fidelity_r2": 0.5519942810589518,
+    "tokens": [
+      {
+        "token": "com",
+        "attribution": 0.0015722569795310736
+      },
+      {
+        "token": "platteriverdecoyco",
+        "attribution": 0.0012488690008752665
+      },
+      {
+        "token": "html",
+        "attribution": 0.0005665774309392455
+      },
+      {
+        "token": "demo",
+        "attribution": -1.261838853333379e-05
+      }
+    ]
+  },
+  {
+    "sample_id": 1,
+    "url": "http://www.atelierduvieuxpin.com/fr/seminaires/finition-ancienne-niveau-1.html",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 1.2301606999826618,
+    "local_fidelity_r2": 0.47680293613349767,
+    "tokens": [
+      {
+        "token": "http",
+        "attribution": 0.0001321332667864994
+      },
+      {
+        "token": "www",
+        "attribution": 0.0001318834189218673
+      },
+      {
+        "token": "atelierduvieuxpin",
+        "attribution": 7.829218532869225e-05
+      },
+      {
+        "token": "1",
+        "attribution": 4.7540353494469375e-05
+      },
+      {
+        "token": "html",
+        "attribution": 3.54826568253567e-05
+      },
+      {
+        "token": "seminaires",
+        "attribution": -2.8786050744522084e-05
+      },
+      {
+        "token": "com",
+        "attribution": 2.3946379816904664e-05
+      },
+      {
+        "token": "fr",
+        "attribution": 1.6711150036949878e-05
+      },
+      {
+        "token": "niveau",
+        "attribution": 1.3347449716119065e-05
+      },
+      {
+        "token": "finition",
+        "attribution": 1.1992495148289603e-05
+      },
+      {
+        "token": "ancienne",
+        "attribution": -1.1015300211229135e-05
+      }
+    ]
+  },
+  {
+    "sample_id": 2,
+    "url": "www.vlaurie.com/computers2/winXP.htm",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 0.6147556999931112,
+    "local_fidelity_r2": 0.9983528690175152,
+    "tokens": [
+      {
+        "token": "www",
+        "attribution": 0.951564182661203
+      },
+      {
+        "token": "vlaurie",
+        "attribution": 0.006553830731233762
+      },
+      {
+        "token": "com",
+        "attribution": -0.004331899776129467
+      },
+      {
+        "token": "htm",
+        "attribution": 0.0027231555692843815
+      },
+      {
+        "token": "winXP",
+        "attribution": 0.0023201394558665846
+      },
+      {
+        "token": "computers2",
+        "attribution": 0.0011646518786223303
+      }
+    ]
+  },
+  {
+    "sample_id": 3,
+    "url": "palzoo.net/TomHanks",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 0.38663009996525943,
+    "local_fidelity_r2": 0.9068550157696199,
+    "tokens": [
+      {
+        "token": "net",
+        "attribution": 0.006063684845170868
+      },
+      {
+        "token": "palzoo",
+        "attribution": 0.0008883687982147253
+      },
+      {
+        "token": "TomHanks",
+        "attribution": -0.0006686082445416033
+      }
+    ]
+  },
+  {
+    "sample_id": 4,
+    "url": "hausgreen.info/wp-content/themes/twentyten/e3bay.co.uk2e.htm",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 0.981641500024125,
+    "local_fidelity_r2": 0.7120615433018758,
+    "tokens": [
+      {
+        "token": "info",
+        "attribution": 0.0006715458744475716
+      },
+      {
+        "token": "htm",
+        "attribution": 0.0003132212016947895
+      },
+      {
+        "token": "e3bay",
+        "attribution": 0.00026910373806594574
+      },
+      {
+        "token": "uk2e",
+        "attribution": 0.00019341558808482577
+      },
+      {
+        "token": "hausgreen",
+        "attribution": 0.00014863080501953437
+      },
+      {
+        "token": "content",
+        "attribution": 8.467969806916333e-05
+      },
+      {
+        "token": "themes",
+        "attribution": 6.661665284286397e-05
+      },
+      {
+        "token": "wp",
+        "attribution": 6.049130321594037e-05
+      },
+      {
+        "token": "twentyten",
+        "attribution": -3.75680410622725e-05
+      },
+      {
+        "token": "co",
+        "attribution": -2.0527461033284237e-05
+      }
+    ]
+  },
+  {
+    "sample_id": 5,
+    "url": "'punto.gt/Aol/login.php?sitedomain=startpage.aol.com&amp;siteState=OrigUrl=http\\%3A\\%2F\\%2Fwww.aol.com\\%2F&amp;authLev=0&amp;lang=en&amp;locale=us'",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 1.983273099991493,
+    "local_fidelity_r2": 0.7036336327258346,
+    "tokens": [
+      {
+        "token": "gt",
+        "attribution": 0.00022694504865722855
+      },
+      {
+        "token": "'punto",
+        "attribution": -0.00018338394382109999
+      },
+      {
+        "token": "php",
+        "attribution": 8.21580469318492e-05
+      },
+      {
+        "token": "Aol",
+        "attribution": 8.090452151834976e-05
+      },
+      {
+        "token": "login",
+        "attribution": 5.271193602435204e-05
+      },
+      {
+        "token": "com",
+        "attribution": 5.1741541303193476e-05
+      },
+      {
+        "token": "com\\%2F",
+        "attribution": 3.727180384569751e-05
+      },
+      {
+        "token": "amp;siteState",
+        "attribution": 2.293985055656338e-05
+      },
+      {
+        "token": "amp;authLev",
+        "attribution": -1.8553226351602406e-05
+      },
+      {
+        "token": "aol",
+        "attribution": 1.8035123246050453e-05
+      },
+      {
+        "token": "OrigUrl",
+        "attribution": -1.4829944303575535e-05
+      },
+      {
+        "token": "0",
+        "attribution": 1.4275521010351354e-05
+      },
+      {
+        "token": "us'",
+        "attribution": -1.3884273263566432e-05
+      },
+      {
+        "token": "aol",
+        "attribution": 8.870731761763781e-06
+      },
+      {
+        "token": "http\\%3A\\%2F\\%2Fwww",
+        "attribution": 7.111667790095097e-06
+      },
+      {
+        "token": "en",
+        "attribution": -6.739281210185925e-06
+      },
+      {
+        "token": "amp;lang",
+        "attribution": 3.5359531550539e-06
+      },
+      {
+        "token": "sitedomain",
+        "attribution": 2.7703243314690774e-06
+      },
+      {
+        "token": "startpage",
+        "attribution": -9.998074404753871e-07
+      },
+      {
+        "token": "amp;locale",
+        "attribution": -8.878451430384936e-08
+      }
+    ]
+  },
+  {
+    "sample_id": 6,
+    "url": "https://tableau-et-compagnie.fr:443/wells-code",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 0.845284899987746,
+    "local_fidelity_r2": 0.260750836881105,
+    "tokens": [
+      {
+        "token": "https",
+        "attribution": 0.00046330440826005797
+      },
+      {
+        "token": "et",
+        "attribution": 0.00015987548244961452
+      },
+      {
+        "token": "fr",
+        "attribution": 0.00014501386152982094
+      },
+      {
+        "token": "compagnie",
+        "attribution": 0.00014114649114125704
+      },
+      {
+        "token": "443",
+        "attribution": 0.00011293689639112529
+      },
+      {
+        "token": "code",
+        "attribution": -7.46551576953707e-05
+      },
+      {
+        "token": "wells",
+        "attribution": -5.94673558867033e-05
+      },
+      {
+        "token": "tableau",
+        "attribution": 4.48359554970786e-05
+      }
+    ]
+  },
+  {
+    "sample_id": 7,
+    "url": "lib.o56.ru/lat/ASPRIN/Thieves_World-2.txt",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 0.8864519000053406,
+    "local_fidelity_r2": 0.6569211630512701,
+    "tokens": [
+      {
+        "token": "ru",
+        "attribution": 0.0028020827412986666
+      },
+      {
+        "token": "World",
+        "attribution": 0.0011701749606444173
+      },
+      {
+        "token": "txt",
+        "attribution": 0.0010685627632961569
+      },
+      {
+        "token": "o56",
+        "attribution": 0.0008682005287305763
+      },
+      {
+        "token": "2",
+        "attribution": -0.0008292289422510261
+      },
+      {
+        "token": "ASPRIN",
+        "attribution": 0.0004945184962772867
+      },
+      {
+        "token": "Thieves",
+        "attribution": 0.00037258240851519784
+      },
+      {
+        "token": "lib",
+        "attribution": -0.00018831126522617873
+      },
+      {
+        "token": "lat",
+        "attribution": -5.395558485846472e-05
+      }
+    ]
+  },
+  {
+    "sample_id": 8,
+    "url": "http://storiesdining.com/reservations/make-a-reservation",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 0.7474266000208445,
+    "local_fidelity_r2": 0.3189423117985093,
+    "tokens": [
+      {
+        "token": "http",
+        "attribution": 0.014052750663129322
+      },
+      {
+        "token": "a",
+        "attribution": -0.008917755893601135
+      },
+      {
+        "token": "reservations",
+        "attribution": -0.00775050875447158
+      },
+      {
+        "token": "make",
+        "attribution": -0.006728535640786523
+      },
+      {
+        "token": "com",
+        "attribution": -0.005771431592283122
+      },
+      {
+        "token": "storiesdining",
+        "attribution": -0.005474246373037641
+      },
+      {
+        "token": "reservation",
+        "attribution": -0.002943367615820648
+      }
+    ]
+  },
+  {
+    "sample_id": 9,
+    "url": "www.erbix.com/eris-form-creator/",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 0.6228010999620892,
+    "local_fidelity_r2": 0.9975464513562928,
+    "tokens": [
+      {
+        "token": "www",
+        "attribution": 0.9532217580767932
+      },
+      {
+        "token": "com",
+        "attribution": 0.010403752563168051
+      },
+      {
+        "token": "erbix",
+        "attribution": 0.005376860399934638
+      },
+      {
+        "token": "form",
+        "attribution": -0.0052608709558914675
+      },
+      {
+        "token": "eris",
+        "attribution": -0.00384554114890274
+      },
+      {
+        "token": "creator",
+        "attribution": 0.003185972244402356
+      }
+    ]
+  },
+  {
+    "sample_id": 10,
+    "url": "www.styopkin.com/rosary_screen_saver.html",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 0.7221685000113212,
+    "local_fidelity_r2": 0.8292157831361848,
+    "tokens": [
+      {
+        "token": "www",
+        "attribution": 0.8288086389777827
+      },
+      {
+        "token": "com",
+        "attribution": 0.26976506616664225
+      },
+      {
+        "token": "screen",
+        "attribution": -0.1403797091102006
+      },
+      {
+        "token": "styopkin",
+        "attribution": -0.12007100191667268
+      },
+      {
+        "token": "saver",
+        "attribution": -0.09551551644707043
+      },
+      {
+        "token": "html",
+        "attribution": 0.04546022049706098
+      },
+      {
+        "token": "rosary",
+        "attribution": -0.03500635152474603
+      }
+    ]
+  },
+  {
+    "sample_id": 11,
+    "url": "corporate.univision.com/2007/05/disney-abc-international-television-latin-america-and-univision-sign-unprecedented-strategic-production-agreement/",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 1.9320286999573,
+    "local_fidelity_r2": 0.429086917364758,
+    "tokens": [
+      {
+        "token": "com",
+        "attribution": 0.00020812022078405768
+      },
+      {
+        "token": "2007",
+        "attribution": 9.674094151380892e-05
+      },
+      {
+        "token": "05",
+        "attribution": 7.277883407496904e-05
+      },
+      {
+        "token": "disney",
+        "attribution": 6.847066894054902e-05
+      },
+      {
+        "token": "univision",
+        "attribution": 6.642941459382402e-05
+      },
+      {
+        "token": "television",
+        "attribution": 6.345377651491155e-05
+      },
+      {
+        "token": "abc",
+        "attribution": 6.139865049344922e-05
+      },
+      {
+        "token": "univision",
+        "attribution": -3.996510255205975e-05
+      },
+      {
+        "token": "corporate",
+        "attribution": -3.718285298206741e-05
+      },
+      {
+        "token": "latin",
+        "attribution": 3.4031009017006224e-05
+      },
+      {
+        "token": "unprecedented",
+        "attribution": 2.8047256981752292e-05
+      },
+      {
+        "token": "international",
+        "attribution": 2.3502828599270828e-05
+      },
+      {
+        "token": "sign",
+        "attribution": 1.597287514094763e-05
+      },
+      {
+        "token": "agreement",
+        "attribution": 1.1869028754638998e-05
+      },
+      {
+        "token": "and",
+        "attribution": 1.0599486480728014e-05
+      },
+      {
+        "token": "america",
+        "attribution": 8.291318493071906e-06
+      },
+      {
+        "token": "strategic",
+        "attribution": -6.822621259933345e-06
+      },
+      {
+        "token": "production",
+        "attribution": 4.5026999989995e-06
+      }
+    ]
+  },
+  {
+    "sample_id": 12,
+    "url": "careerbuilder.com/Jobs/Company/C8A1KV665NW9TVNKR7Z/Shook-Hardy-Bacon-LLP-Jobs/",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 1.2504158000228927,
+    "local_fidelity_r2": 0.7333228403714319,
+    "tokens": [
+      {
+        "token": "com",
+        "attribution": 0.0005520013573179953
+      },
+      {
+        "token": "Jobs",
+        "attribution": 0.00013035319035425836
+      },
+      {
+        "token": "C8A1KV665NW9TVNKR7Z",
+        "attribution": 0.00011684458075940164
+      },
+      {
+        "token": "careerbuilder",
+        "attribution": -9.9990860237751e-05
+      },
+      {
+        "token": "Bacon",
+        "attribution": 7.612284231305344e-05
+      },
+      {
+        "token": "Shook",
+        "attribution": 6.60341478968771e-05
+      },
+      {
+        "token": "Hardy",
+        "attribution": 2.8873558501481326e-05
+      },
+      {
+        "token": "Jobs",
+        "attribution": 2.873849253652672e-05
+      },
+      {
+        "token": "Company",
+        "attribution": 2.3618107691209696e-05
+      },
+      {
+        "token": "LLP",
+        "attribution": -2.5122786689626413e-06
+      }
+    ]
+  },
+  {
+    "sample_id": 13,
+    "url": "http://89.32.41.63/mips",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 0.7186108999885619,
+    "local_fidelity_r2": 0.8184420719949024,
+    "tokens": [
+      {
+        "token": "http",
+        "attribution": 5.984466558308427e-05
+      },
+      {
+        "token": "mips",
+        "attribution": 1.1841359757391246e-05
+      },
+      {
+        "token": "89",
+        "attribution": 1.1784299521234723e-05
+      },
+      {
+        "token": "63",
+        "attribution": 1.2822753656523478e-06
+      },
+      {
+        "token": "41",
+        "attribution": 1.0749207129700804e-06
+      },
+      {
+        "token": "32",
+        "attribution": -1.1199174443362728e-07
+      }
+    ]
+  },
+  {
+    "sample_id": 14,
+    "url": "vlaff.org/",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 0.3174021000158973,
+    "local_fidelity_r2": 0.9940242385005579,
+    "tokens": [
+      {
+        "token": "org",
+        "attribution": 0.001497830927647009
+      },
+      {
+        "token": "vlaff",
+        "attribution": -0.00075116282205099
+      }
+    ]
+  },
+  {
+    "sample_id": 15,
+    "url": "http://www.multisolexpress.com.br/index.php?option=com_content&view=article&id=33:seguro-habitacional&catid=16:seguro-habitacional&Itemid=3",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 2.010412700008601,
+    "local_fidelity_r2": 0.5793016350100784,
+    "tokens": [
+      {
+        "token": "www",
+        "attribution": 0.00027171098329213834
+      },
+      {
+        "token": "http",
+        "attribution": 0.0002697253120667757
+      },
+      {
+        "token": "index",
+        "attribution": 6.533108113772233e-05
+      },
+      {
+        "token": "php",
+        "attribution": 6.26786668523715e-05
+      },
+      {
+        "token": "habitacional",
+        "attribution": -5.853278424438135e-05
+      },
+      {
+        "token": "view",
+        "attribution": 5.0527928276954564e-05
+      },
+      {
+        "token": "id",
+        "attribution": 4.4887328556053036e-05
+      },
+      {
+        "token": "multisolexpress",
+        "attribution": 3.55294135838306e-05
+      },
+      {
+        "token": "seguro",
+        "attribution": -3.090195144219248e-05
+      },
+      {
+        "token": "content",
+        "attribution": 3.084803544613288e-05
+      },
+      {
+        "token": "article",
+        "attribution": 2.8496462277031172e-05
+      },
+      {
+        "token": "16",
+        "attribution": 2.5517394165385132e-05
+      },
+      {
+        "token": "catid",
+        "attribution": 2.2725526102798557e-05
+      },
+      {
+        "token": "com",
+        "attribution": 2.227350123106054e-05
+      },
+      {
+        "token": "seguro",
+        "attribution": 1.9008429705305946e-05
+      },
+      {
+        "token": "br",
+        "attribution": 1.638943059479742e-05
+      },
+      {
+        "token": "Itemid",
+        "attribution": 1.0839246224624695e-05
+      },
+      {
+        "token": "option",
+        "attribution": -8.970935962988307e-06
+      },
+      {
+        "token": "com",
+        "attribution": 7.347500021732295e-06
+      },
+      {
+        "token": "33",
+        "attribution": 7.176937515042929e-06
+      }
+    ]
+  },
+  {
+    "sample_id": 16,
+    "url": "makethemworkforyou.com/Municipal/Edmonton/CityCouncil.aspx",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 0.681430900003761,
+    "local_fidelity_r2": 0.5016306162166964,
+    "tokens": [
+      {
+        "token": "com",
+        "attribution": 0.0008753991512728179
+      },
+      {
+        "token": "Edmonton",
+        "attribution": 0.0005320522041382825
+      },
+      {
+        "token": "makethemworkforyou",
+        "attribution": 0.0005237964203947044
+      },
+      {
+        "token": "Municipal",
+        "attribution": 0.0003625627293809992
+      },
+      {
+        "token": "CityCouncil",
+        "attribution": 0.00020702682671234278
+      },
+      {
+        "token": "aspx",
+        "attribution": 0.0001330447504806621
+      }
+    ]
+  },
+  {
+    "sample_id": 17,
+    "url": "https://mitsui-jyuku.mixh.jp/uploads/1671q2w3ez1x2c3.exe",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 0.9611919000162743,
+    "local_fidelity_r2": 0.8743143219624231,
+    "tokens": [
+      {
+        "token": "https",
+        "attribution": 7.968140756821806e-05
+      },
+      {
+        "token": "exe",
+        "attribution": 4.266179368115245e-05
+      },
+      {
+        "token": "jp",
+        "attribution": 3.076544233318833e-05
+      },
+      {
+        "token": "mitsui",
+        "attribution": 2.827434392417689e-05
+      },
+      {
+        "token": "mixh",
+        "attribution": 2.087072385484144e-05
+      },
+      {
+        "token": "uploads",
+        "attribution": 1.5989335868317122e-05
+      },
+      {
+        "token": "1671q2w3ez1x2c3",
+        "attribution": 4.02389992743354e-06
+      },
+      {
+        "token": "jyuku",
+        "attribution": 2.231350927161415e-06
+      }
+    ]
+  },
+  {
+    "sample_id": 18,
+    "url": "http://www.electrosistemas.com.ar/index.php?option=com_virtuemart&page=shop.browse&category_id=12&Itemid=2&TreeId=15",
+    "true_label": 1,
+    "predicted_class": 1,
+    "runtime_seconds": 2.0154735000105575,
+    "local_fidelity_r2": 0.448406638793293,
+    "tokens": [
+      {
+        "token": "http",
+        "attribution": 0.0002098095211965316
+      },
+      {
+        "token": "www",
+        "attribution": 0.00020046667082125792
+      },
+      {
+        "token": "electrosistemas",
+        "attribution": 0.00019878867009996926
+      },
+      {
+        "token": "Itemid",
+        "attribution": 7.939158642629512e-05
+      },
+      {
+        "token": "category",
+        "attribution": -7.264601633485462e-05
+      },
+      {
+        "token": "php",
+        "attribution": 5.72105770740585e-05
+      },
+      {
+        "token": "id",
+        "attribution": 5.5917722573096483e-05
+      },
+      {
+        "token": "TreeId",
+        "attribution": 4.5973310223984795e-05
+      },
+      {
+        "token": "com",
+        "attribution": -4.476301006961882e-05
+      },
+      {
+        "token": "ar",
+        "attribution": 4.275453853208232e-05
+      },
+      {
+        "token": "12",
+        "attribution": 3.728549951304239e-05
+      },
+      {
+        "token": "browse",
+        "attribution": 3.415926920769216e-05
+      },
+      {
+        "token": "15",
+        "attribution": 3.22255305737182e-05
+      },
+      {
+        "token": "com",
+        "attribution": 2.5038548372798654e-05
+      },
+      {
+        "token": "index",
+        "attribution": 2.3809140054553812e-05
+      },
+      {
+        "token": "option",
+        "attribution": -1.2171468505791799e-05
+      },
+      {
+        "token": "2",
+        "attribution": -1.0316925484528768e-05
+      },
+      {
+        "token": "virtuemart",
+        "attribution": -9.482632830649584e-06
+      },
+      {
+        "token": "page",
+        "attribution": -3.840193862019958e-06
+      },
+      {
+        "token": "shop",
+        "attribution": -3.2462058874381433e-06
+      }
+    ]
+  },
+  {
+    "sample_id": 19,
+    "url": "legacy.com/obituaries/ctpost/obituary.aspx?n=charles-r-feld&pid=105444849&fhid=4894",
+    "true_label": 0,
+    "predicted_class": 0,
+    "runtime_seconds": 1.4981511000078171,
+    "local_fidelity_r2": 0.7520825546172216,
+    "tokens": [
+      {
+        "token": "com",
+        "attribution": 0.00025637064787024455
+      },
+      {
+        "token": "obituaries",
+        "attribution": 5.3527560311991904e-05
+      },
+      {
+        "token": "ctpost",
+        "attribution": 4.671901394899812e-05
+      },
+      {
+        "token": "charles",
+        "attribution": 3.787767287402937e-05
+      },
+      {
+        "token": "r",
+        "attribution": 3.529109594961981e-05
+      },
+      {
+        "token": "105444849",
+        "attribution": 3.252014378527049e-05
+      },
+      {
+        "token": "obituary",
+        "attribution": 3.217397913909112e-05
+      },
+      {
+        "token": "4894",
+        "attribution": 3.1073751159974064e-05
+      },
+      {
+        "token": "fhid",
+        "attribution": 2.3612152461934e-05
+      },
+      {
+        "token": "pid",
+        "attribution": 2.287063287835374e-05
+      },
+      {
+        "token": "aspx",
+        "attribution": 2.0046860531133436e-05
+      },
+      {
+        "token": "legacy",
+        "attribution": -1.8501558752188206e-05
+      },
+      {
+        "token": "n",
+        "attribution": -1.3899555847697377e-05
+      },
+      {
+        "token": "feld",
+        "attribution": -7.154648323352983e-07
+      }
+    ]
+  }
+]

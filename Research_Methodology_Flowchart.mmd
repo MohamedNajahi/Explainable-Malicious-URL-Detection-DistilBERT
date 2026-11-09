@@ -1,0 +1,49 @@
+flowchart TD
+    %% Custom Styling
+    classDef stage fill:#f0f4f8,stroke:#2b4c7e,stroke-width:2px,color:#102a43;
+    classDef step fill:#ffffff,stroke:#486581,stroke-width:1.5px,color:#243b53;
+    classDef decision fill:#e0fcff,stroke:#008699,stroke-width:2px,color:#044e54;
+    classDef output fill:#d9f0fc,stroke:#1976d2,stroke-width:2px,color:#0a3560;
+
+    subgraph Phase1 ["Phase 1: Dataset Acquisition & Preprocessing"]
+        P1A["Raw URL Corpus<br/>(Benign & Phishing/Malicious URLs)"] --> P1B["Data Cleaning & Deduplication<br/>(Remove duplicates and corrupted entries)"]
+        P1B --> P1C["Dataset Partitioning<br/>(Train / Validation / Test Splits)"]
+    end
+
+    subgraph Phase2 ["Phase 2: Feature Extraction & Model Benchmarking"]
+        P1C --> P2A["Handcrafted Lexical Feature Engineering<br/>(Length, token counts, special characters)"]
+        P1C --> P2B["Sub-word Tokenization<br/>(DistilBERT Fast Tokenizer, max_len=96)"]
+        
+        P2A --> P2C["Baseline Machine Learning Models<br/>• Random Forest<br/>• XGBoost"]
+        P2B --> P2D["Deep Learning Transformer<br/>• Fine-Tuned DistilBERT"]
+        
+        P2C & P2D --> P2E["Comparative Performance Evaluation<br/>(Accuracy, Precision, Recall, F1, ROC-AUC)"]
+        P2E --> P2F["Best Performing Model Selection:<br/>DistilBERT Checkpoint"]:::decision
+    end
+
+    subgraph Phase3 ["Phase 3: Multi-Method Explainable AI (XAI) Engine"]
+        P2F --> P3A["Gradient-Based: Integrated Gradients (IG)<br/>(Embedding-layer path integration from [PAD])"]
+        P2F --> P3B["Surrogate-Based: LIME<br/>(Local linear surrogate with URL token regex)"]
+        P2F --> P3C["Game-Theoretic: SHAP<br/>(Partition explainer + Text masker Shapley values)"]
+        
+        P3A & P3B & P3C --> P3D["Component Attribution Mapping<br/>(Map token scores to Subdomain, Domain, Path, Query)"]
+    end
+
+    subgraph Phase4 ["Phase 4: Empirical XAI Evaluation (200-URL Benchmark)"]
+        P3D --> P4A["Held-out Benchmark Dataset<br/>(Balanced: 100 Benign + 100 Malicious)"]
+        P4A --> P4B["Faithfulness Assessment<br/>(Component Occlusion vs. Spearman Correlation ρ)"]
+        P4A --> P4C["Plausibility & Impact<br/>(Top-k Component Deletion Probability Drop)"]
+        P4A --> P4D["Attribution Stability<br/>(Cosine similarity across synthetic URL perturbations)"]
+        P4A --> P4E["Computational Latency<br/>(Wall-clock runtime per explanation method)"]
+    end
+
+    subgraph Phase5 ["Phase 5: Secure Web MVP Deployment"]
+        P2F & P3D --> P5A["FastAPI Backend<br/>• Single-instance model caching<br/>• /predict & /explain endpoints<br/>• Isolated offline analysis (no URL fetching)"]
+        P5A --> P5B["Interactive Web UI<br/>• Real-time prediction & confidence<br/>• Token-level attribution heatmap<br/>• Signed URL component impact bar chart<br/>• Research benchmark results tab"]:::output
+    end
+
+    Phase1 --> Phase2
+    Phase2 --> Phase3
+    Phase3 --> Phase4
+    Phase3 --> Phase5
+

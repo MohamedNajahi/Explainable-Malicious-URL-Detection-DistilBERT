@@ -1,0 +1,206 @@
+[
+  {
+    "sample_id": 0,
+    "true_label": 0,
+    "url": "platteriverdecoyco.com/demo.html",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 0.4637991873169085,
+      "path": 0.5334892637474695
+    }
+  },
+  {
+    "sample_id": 1,
+    "true_label": 1,
+    "url": "http://www.atelierduvieuxpin.com/fr/seminaires/finition-ancienne-niveau-1.html",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.000622093677520752,
+      "path": 0.00034034252166748047
+    }
+  },
+  {
+    "sample_id": 2,
+    "true_label": 1,
+    "url": "www.vlaurie.com/computers2/winXP.htm",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.48028084821999073,
+      "path": -0.4788061697036028
+    }
+  },
+  {
+    "sample_id": 3,
+    "true_label": 0,
+    "url": "palzoo.net/TomHanks",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 0.28372534272784833,
+      "path": 0.7137265294877579
+    }
+  },
+  {
+    "sample_id": 4,
+    "true_label": 0,
+    "url": "hausgreen.info/wp-content/themes/twentyten/e3bay.co.uk2e.htm",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": -0.0008258124871645123,
+      "path": 0.9974526533915196
+    }
+  },
+  {
+    "sample_id": 5,
+    "true_label": 0,
+    "url": "'punto.gt/Aol/login.php?sitedomain=startpage.aol.com&amp;siteState=OrigUrl=http\\%3A\\%2F\\%2Fwww.aol.com\\%2F&amp;authLev=0&amp;lang=en&amp;locale=us'",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": -0.03838506690226495,
+      "path": 0.5858117745956405,
+      "query": 0.4477583871921524
+    }
+  },
+  {
+    "sample_id": 6,
+    "true_label": 1,
+    "url": "https://tableau-et-compagnie.fr:443/wells-code",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.0005451440811157227,
+      "path": 0.0001023411750793457
+    }
+  },
+  {
+    "sample_id": 7,
+    "true_label": 0,
+    "url": "lib.o56.ru/lat/ASPRIN/Thieves_World-2.txt",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 2.683332422748208e-05,
+      "path": 0.9969144004280679
+    }
+  },
+  {
+    "sample_id": 8,
+    "true_label": 1,
+    "url": "http://storiesdining.com/reservations/make-a-reservation",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.013927102088928223,
+      "path": -0.0254555344581604
+    }
+  },
+  {
+    "sample_id": 9,
+    "true_label": 1,
+    "url": "www.erbix.com/eris-form-creator/",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.4971544840373099,
+      "path": -0.4956811764277518
+    }
+  },
+  {
+    "sample_id": 10,
+    "true_label": 1,
+    "url": "www.styopkin.com/rosary_screen_saver.html",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.4964918862679042,
+      "path": -0.5011086236336268
+    }
+  },
+  {
+    "sample_id": 11,
+    "true_label": 0,
+    "url": "corporate.univision.com/2007/05/disney-abc-international-television-latin-america-and-univision-sign-unprecedented-strategic-production-agreement/",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": -0.0064107346697710454,
+      "path": 0.9921930459677242
+    }
+  },
+  {
+    "sample_id": 12,
+    "true_label": 0,
+    "url": "careerbuilder.com/Jobs/Company/C8A1KV665NW9TVNKR7Z/Shook-Hardy-Bacon-LLP-Jobs/",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": -0.000867619935888797,
+      "path": 0.9972753902547993
+    }
+  },
+  {
+    "sample_id": 13,
+    "true_label": 1,
+    "url": "http://89.32.41.63/mips",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.00020250678062438965,
+      "path": 0.0001030266284942627
+    }
+  },
+  {
+    "sample_id": 14,
+    "true_label": 0,
+    "url": "vlaff.org/",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 0.00041409248660784215,
+      "path": 0.9969150550459744
+    }
+  },
+  {
+    "sample_id": 15,
+    "true_label": 1,
+    "url": "http://www.multisolexpress.com.br/index.php?option=com_content&view=article&id=33:seguro-habitacional&catid=16:seguro-habitacional&Itemid=3",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.0005168716112772623,
+      "path": 0.0001809696356455485,
+      "query": 0.0006710986296335856
+    }
+  },
+  {
+    "sample_id": 16,
+    "true_label": 0,
+    "url": "makethemworkforyou.com/Municipal/Edmonton/CityCouncil.aspx",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 0.014453126961598173,
+      "path": 0.9823440777545329
+    }
+  },
+  {
+    "sample_id": 17,
+    "true_label": 1,
+    "url": "https://mitsui-jyuku.mixh.jp/uploads/1671q2w3ez1x2c3.exe",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.00047791004180908203,
+      "path": 0.00040715932846069336
+    }
+  },
+  {
+    "sample_id": 18,
+    "true_label": 1,
+    "url": "http://www.electrosistemas.com.ar/index.php?option=com_virtuemart&page=shop.browse&category_id=12&Itemid=2&TreeId=15",
+    "predicted_class": 1,
+    "component_scores": {
+      "domain": 0.0006944040457407633,
+      "path": 0.000187764565149943,
+      "query": 0.0004924337069193523
+    }
+  },
+  {
+    "sample_id": 19,
+    "true_label": 0,
+    "url": "legacy.com/obituaries/ctpost/obituary.aspx?n=charles-r-feld&pid=105444849&fhid=4894",
+    "predicted_class": 0,
+    "component_scores": {
+      "domain": 0.0003943068829054634,
+      "path": 0.981305618401772,
+      "query": 0.014480710592276106
+    }
+  }
+]

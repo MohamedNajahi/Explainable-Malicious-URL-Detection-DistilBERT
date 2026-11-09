@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <title>Explainable Malicious URL Detection</title>
+  <link rel="stylesheet" href="/static/style.css?v=5">
+  <link rel="icon" href="data:,">
+</head>
+
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand"><i></i>URL Guard</div>
+      <a href="#analysis-panel" class="on">Analyze</a>
+      <a href="#comparison-panel">Model Comparison</a>
+      <a href="#explanation-panel">Explanation</a>
+      <hr>
+      <a href="#research-section">Research Results</a>
+      <p class="side-note">Experimental system. Not a verified safety check.</p>
+    </aside>
+    <div class="content">
+
+      <!-- ===== HEADER ===== -->
+      <header class="site-header">
+        <div class="header-inner">
+          <div class="header-title">
+            <h1>URL Detection Dashboard</h1>
+            <p class="header-subtitle">DistilBERT &middot; Integrated Gradients &middot; LIME &middot; SHAP</p>
+          </div>
+          <span class="badge-project">Final Year Project &middot; NIBM</span>
+        </div>
+      </header>
+
+      <main class="container">
+
+        <!-- ===== URL ANALYSIS PANEL ===== -->
+        <section class="card" id="analysis-panel">
+          <h2 class="section-title">URL Analysis</h2>
+
+          <!-- URL input row -->
+          <div class="input-group">
+            <input id="url-input" type="text" placeholder="https://example.com/path?query=value" maxlength="4096"
+              autocomplete="off" spellcheck="false">
+            <button id="btn-analyze" class="btn btn-primary" onclick="analyzeURL()">
+              <span class="btn-text">Analyze URL</span>
+              <span class="spinner" hidden></span>
+            </button>
+          </div>
+          <div class="model-choice"><label for="model-select"><strong>Primary model:</strong></label>
+            <select id="model-select">
+              <option value="full" selected>DistilBERT Full (default)</option>
+              <option value="10k">DistilBERT 10k</option>
+            </select>
+          </div>
+          <div id="analyze-error" class="error-msg" hidden></div>
+
+          <!-- XAI method tabs -->
+          <div class="tabs-wrapper" id="tabs-wrapper">
+            <div class="tabs" role="tablist">
+              <button class="tab active" data-method="ig" role="tab" aria-selected="true">
+                <span class="tab-label">IG</span>
+                <span class="tab-sub">Embedding-layer gradients</span>
+              </button>
+              <button class="tab" data-method="lime" role="tab" aria-selected="false">
+                <span class="tab-label">LIME</span>
+                <span class="tab-sub">Local linear approximation</span>
+              </button>
+              <button class="tab" data-method="shap" role="tab" aria-selected="false">
+                <span class="tab-label">SHAP</span>
+                <span class="tab-sub">Shapley value partition</span>
+              </button>
+            </div>
+            <button id="btn-explain" class="btn btn-secondary" onclick="explainURL()">
+              <span class="btn-text">Explain</span>
+              <span class="spinner" hidden></span>
+            </button>
+          </div>
+          <div id="explain-error" class="error-msg" hidden></div>
+
+          <!-- Prediction result card -->
+          <div id="prediction-card" class="prediction-card" hidden>
+            <div class="pred-label-wrap">
+              <span class="pred-label" id="pred-label">Benign</span>
+              <span class="pred-confidence" id="pred-confidence">0.00%</span>
+            </div>
+            <div class="prob-bars">
+              <div class="prob-row">
+                <span class="prob-name benign-text">Benign</span>
+                <div class="prob-bar-bg">
+                  <div class="prob-bar benign-bar" id="bar-benign" style="width:0%"></div>
+                </div>
+                <span class="prob-val" id="val-benign">0.000</span>
+              </div>
+              <div class="prob-row">
+                <span class="prob-name malicious-text">Malicious</span>
+                <div class="prob-bar-bg">
+                  <div class="prob-bar malicious-bar" id="bar-malicious" style="width:0%"></div>
+                </div>
+                <span class="prob-val" id="val-malicious">0.000</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== FOUR-MODEL COMPARISON ===== -->
+        <section class="card" id="comparison-panel" hidden>
+          <h2 class="section-title">Same-URL Four-Model Comparison</h2>
+          <p class="comparison-note">Each model evaluates the same input URL. Probabilities are not necessarily
+            calibrated.</p>
+          <div class="table-scroll">
+            <table class="research-table">
+              <thead>
+                <tr>
+                  <th>Model</th>
+                  <th>Prediction</th>
+                  <th>P(malicious)</th>
+                  <th>Runtime (ms)</th>
+                </tr>
+              </thead>
+              <tbody id="comparison-tbody"></tbody>
+            </table>
+          </div>
+        </section>
+        <!-- ===== EXPLANATION PANEL ===== -->
+        <section class="card" id="explanation-panel" hidden>
+          <div class="method-badge-row">
+            <span class="method-badge" id="method-badge">IG</span>
+            <p class="method-note" id="method-note"></p>
+          </div>
+
+          <h3>Token Heatmap</h3>
+          <div class="heatmap-legend">
+            <div class="legend-grad"></div>
+            <div class="legend-labels">
+              <span>Negative attribution</span>
+              <span>Neutral</span>
+              <span>Positive attribution</span>
+            </div>
+          </div>
+          <div id="token-heatmap" class="token-heatmap"></div>
+
+          <h3>URL Component Attribution</h3>
+          <p class="comparison-note">⚠ Attribution magnitudes are not comparable across methods.</p>
+          <div id="component-chart" class="component-chart"></div>
+
+          <div class="warning-box" id="explanation-warning"></div>
+        </section>
+
+        <!-- ===== RESEARCH RESULTS SECTION ===== -->
+        <section class="card" id="research-section">
+          <h2 class="section-title">Research Evaluation Results</h2>
+          <div class="model-choice"><label for="research-model"><strong>Offline XAI results for:</strong></label><select
+              id="research-model">
+              <option value="full">DistilBERT Full</option>
+              <option value="10k">DistilBERT 10k</option>
+            </select></div>
+          <div id="test-metrics" class="test-metrics"></div>
+          <p class="research-subtitle">
+            Offline XAI evaluation on a balanced 200-URL subset (100 benign + 100 malicious), when completed.
+            Raw attribution magnitudes differ across methods and should not be compared directly.
+          </p>
+
+          <div id="research-loading" class="research-loading">Loading research results&hellip;</div>
+          <div id="research-error" class="error-msg" hidden></div>
+
+          <div id="research-table-wrap" hidden>
+            <div class="table-scroll">
+              <table class="research-table" id="research-table">
+                <thead>
+                  <tr>
+                    <th>Method</th>
+                    <th>Occlusion Spearman &rho;</th>
+                    <th>Deletion Prob. Drop</th>
+                    <th>Cosine Similarity</th>
+                    <th>Avg. Runtime (s)</th>
+                    <th>Top-Component Stability</th>
+                  </tr>
+                </thead>
+                <tbody id="research-tbody"></tbody>
+              </table>
+            </div>
+
+            <div class="research-visuals" aria-label="Research comparison graphs">
+              <div class="research-graph">
+                <h3>Occlusion agreement (Spearman ρ)</h3>
+                <p>Mean correlation; higher indicates greater agreement under this protocol.</p>
+                <div id="chart-occlusion"></div>
+              </div>
+              <div class="research-graph">
+                <h3>Explanation stability (cosine similarity)</h3>
+                <p>Mean component-vector similarity under tested URL modifications.</p>
+                <div id="chart-stability"></div>
+              </div>
+              <div class="research-graph">
+                <h3>Explanation generation time</h3>
+                <p>Mean seconds per explanation; lower is faster on the tested hardware.</p>
+                <div id="chart-runtime"></div>
+              </div>
+            </div>
+            <div class="metric-notes">
+              <strong>Metric guide:</strong>
+              <ul>
+                <li><strong>Occlusion Spearman &rho;</strong> &mdash; Rank correlation between attribution magnitude and
+                  component occlusion effects; higher means stronger agreement with this proxy, not proof of explanation
+                  correctness.</li>
+                <li><strong>Deletion Prob. Drop</strong> &mdash; Change in predicted-class probability after removing
+                  top-ranked URL components. Larger drops show greater sensitivity to this deletion procedure, not
+                  necessarily more faithful explanations.</li>
+                <li><strong>Cosine Similarity</strong> &mdash; Cosine similarity of component attribution vectors under
+                  controlled URL modifications (higher = more similar).</li>
+                <li><strong>Avg. Runtime</strong> &mdash; Mean wall-clock seconds to generate one explanation (lower =
+                  faster).</li>
+                <li><strong>Top-Component Stability</strong> &mdash; Fraction of tested modifications retaining the same
+                  top-ranked URL component (higher = more consistent).</li>
+              </ul>
+            </div>
+            <p class="research-caveat">The graphs summarize offline evaluation, not the currently entered URL. Methods
+              may
+              use different attribution scales and masking assumptions. Results are descriptive, not a statistical
+              significance test.</p>
+            <p class="source-note" id="research-source"></p>
+          </div>
+        </section>
+
+      </main>
+
+      <!-- ===== FOOTER ===== -->
+      <footer class="site-footer">
+        <p>⚠ Experimental AI system. Predictions are not verified website safety assessments.
+          Do not use as the sole basis for security decisions.</p>
+      </footer>
+    </div>
+  </div>
+
+  <script src="/static/script.js?v=5"></script>
+</body>
+
+</html>
